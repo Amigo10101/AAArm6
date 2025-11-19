@@ -1,0 +1,41 @@
+Not searching for unused variables given on the command line.
+-- The CXX compiler identification is GNU 8.3.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests
+Change Dir: '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j16 -l16
+gmake[1]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests'
+/usr/bin/cmake -S/home/idgaf/uros_ws/firmware/mcu_ws/uros/rosidl_typesupport_microxrcedds/test/c -B/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests/CMakeFiles /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[2]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests'
+gmake[2]: Nothing to be done for 'all'.
+gmake[2]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests'
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests/CMakeFiles 0
+gmake[1]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_c_tests'
+
+-- Install configuration: "Debug"
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_c_tests
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_c_tests
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/ament_prefix_path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/ament_prefix_path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.bash
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.zsh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/package.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_c_tests
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/cmake/rosidl_typesupport_microxrcedds_c_testsConfig.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/cmake/rosidl_typesupport_microxrcedds_c_testsConfig-version.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/package.xml

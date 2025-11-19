@@ -1,0 +1,11 @@
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c:[m[K In function '[01m[Krcl_lifecycle_state_machine_fini[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c:265:24:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcl_error_string_t [01;35m[Kerror_string[m[K = rcl_get_error_string();
+                        [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c:275:24:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcl_error_string_t [01;35m[Kerror_string[m[K = rcl_get_error_string();
+                        [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c:[m[K In function '[01m[K_trigger_transition[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c:366:26:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+       rcl_error_string_t [01;35m[Kerror_string[m[K = rcl_get_error_string();
+                          [01;35m[K^~~~~~~~~~~~[m[K

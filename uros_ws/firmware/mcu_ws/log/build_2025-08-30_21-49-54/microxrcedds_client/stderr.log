@@ -1,0 +1,5 @@
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:[m[K In function '[01m[Kuxr_nanos[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:71:5:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kclock_gettime[m[K'; did you mean '[01m[Klocaltime[m[K'? [[01;35m[K-Wimplicit-function-declaration[m[K]
+     [01;35m[Kclock_gettime[m[K(CLOCK_REALTIME, &ts);
+     [01;35m[K^~~~~~~~~~~~~[m[K
+     [32m[Klocaltime[m[K

@@ -1,0 +1,112 @@
+[0.432s] Invoking command in '/home/idgaf/uros_ws/firmware/dev_ws/ament/ament_lint/ament_copyright': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build install --record /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/install.log --single-version-externally-managed install_data
+[0.571s] running egg_info
+[0.571s] creating ../../../build/ament_copyright/ament_copyright.egg-info
+[0.578s] writing ../../../build/ament_copyright/ament_copyright.egg-info/PKG-INFO
+[0.578s] writing dependency_links to ../../../build/ament_copyright/ament_copyright.egg-info/dependency_links.txt
+[0.578s] writing entry points to ../../../build/ament_copyright/ament_copyright.egg-info/entry_points.txt
+[0.578s] writing requirements to ../../../build/ament_copyright/ament_copyright.egg-info/requires.txt
+[0.578s] writing top-level names to ../../../build/ament_copyright/ament_copyright.egg-info/top_level.txt
+[0.578s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[0.593s] reading manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[0.593s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[0.593s] running build
+[0.594s] running build_py
+[0.594s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build
+[0.594s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib
+[0.594s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.594s] copying ament_copyright/pytest_marker.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.594s] copying ament_copyright/copyright_names.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.594s] copying ament_copyright/parser.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.594s] copying ament_copyright/main.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.594s] copying ament_copyright/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.594s] copying ament_copyright/licenses.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.594s] copying ament_copyright/crawler.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.594s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.594s] copying ament_copyright/template/bsd_2clause_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.594s] copying ament_copyright/template/mit0_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.595s] copying ament_copyright/template/boost1_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.595s] copying ament_copyright/template/boost1_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.595s] copying ament_copyright/template/lgplv3_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.595s] copying ament_copyright/template/gplv3_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.595s] copying ament_copyright/template/apache2_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.595s] copying ament_copyright/template/mit_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.595s] copying ament_copyright/template/gplv3_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.595s] copying ament_copyright/template/mit_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.595s] copying ament_copyright/template/gplv3_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.595s] copying ament_copyright/template/bsd_3clause_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.595s] copying ament_copyright/template/bsd_2clause_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.595s] copying ament_copyright/template/bsd_3clause_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.595s] copying ament_copyright/template/lgplv3_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/apache2_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/apache2_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/bsd_2clause_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/mit_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/boost1_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/bsd_3clause_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/lgplv3_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/bsd2_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/mit0_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/bsd_3clause_header_0.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/mit0_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/mit_header_0.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/bsd2_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] copying ament_copyright/template/bsd2_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.596s] running install
+[0.600s] running install_lib
+[0.608s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright
+[0.608s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/pytest_marker.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright
+[0.608s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/copyright_names.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright
+[0.608s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/parser.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright
+[0.608s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/main.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright
+[0.608s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright
+[0.608s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/licenses.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright
+[0.608s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/crawler.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright
+[0.608s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_2clause_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit0_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_2clause_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_2clause_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.609s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.610s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_license.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.610s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit0_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.610s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_header_0.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.610s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit0_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.610s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_header_0.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.610s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_contributing.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.610s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_header.txt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/template
+[0.610s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/pytest_marker.py to pytest_marker.cpython-312.pyc
+[0.610s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/copyright_names.py to copyright_names.cpython-312.pyc
+[0.610s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/parser.py to parser.cpython-312.pyc
+[0.612s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/main.py to main.cpython-312.pyc
+[0.614s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/__init__.py to __init__.cpython-312.pyc
+[0.614s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/licenses.py to licenses.cpython-312.pyc
+[0.615s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright/crawler.py to crawler.cpython-312.pyc
+[0.615s] running install_data
+[0.615s] copying package.xml -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/share/ament_copyright
+[0.616s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/share/ament_index
+[0.616s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index
+[0.616s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index/packages
+[0.616s] copying resource/ament_copyright -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index/packages
+[0.616s] running install_egg_info
+[0.625s] Copying ../../../build/ament_copyright/ament_copyright.egg-info to /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages/ament_copyright-0.17.3-py3.12.egg-info
+[0.625s] running install_scripts
+[0.687s] Installing ament_copyright script to /home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/bin
+[0.687s] writing list of installed files to '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/install.log'
+[0.708s] Invoked command in '/home/idgaf/uros_ws/firmware/dev_ws/ament/ament_lint/ament_copyright' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/build install --record /home/idgaf/uros_ws/firmware/dev_ws/build/ament_copyright/install.log --single-version-externally-managed install_data

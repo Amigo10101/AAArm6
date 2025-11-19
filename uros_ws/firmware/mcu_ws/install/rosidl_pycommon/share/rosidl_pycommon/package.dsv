@@ -1,0 +1,6 @@
+source;share/rosidl_pycommon/hook/pythonpath.ps1
+source;share/rosidl_pycommon/hook/pythonpath.dsv
+source;share/rosidl_pycommon/hook/pythonpath.sh
+source;share/rosidl_pycommon/hook/ament_prefix_path.ps1
+source;share/rosidl_pycommon/hook/ament_prefix_path.dsv
+source;share/rosidl_pycommon/hook/ament_prefix_path.sh

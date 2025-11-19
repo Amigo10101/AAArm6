@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  turtlebot3_sim:
+    build: .
+    container_name: turtlebot3_jazzy
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - TURTLEBOT3_MODEL=waffle_pi
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    network_mode: host
+    command: >
+      bash -c "source ~/.bashrc &&
+               ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py"

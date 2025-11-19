@@ -1,0 +1,19 @@
+#----------------------------------------------------------------
+# Generated CMake target import file for configuration "Debug".
+#----------------------------------------------------------------
+
+# Commands may need to know the format version.
+set(CMAKE_IMPORT_FILE_VERSION 1)
+
+# Import target "visualization_msgs::visualization_msgs__rosidl_typesupport_c" for configuration "Debug"
+set_property(TARGET visualization_msgs::visualization_msgs__rosidl_typesupport_c APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+set_target_properties(visualization_msgs::visualization_msgs__rosidl_typesupport_c PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
+  IMPORTED_LOCATION_DEBUG "${_IMPORT_PREFIX}/lib/libvisualization_msgs__rosidl_typesupport_c.a"
+  )
+
+list(APPEND _cmake_import_check_targets visualization_msgs::visualization_msgs__rosidl_typesupport_c )
+list(APPEND _cmake_import_check_files_for_visualization_msgs::visualization_msgs__rosidl_typesupport_c "${_IMPORT_PREFIX}/lib/libvisualization_msgs__rosidl_typesupport_c.a" )
+
+# Commands beyond this point should not need to know the version.
+set(CMAKE_IMPORT_FILE_VERSION)

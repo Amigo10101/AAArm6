@@ -1,0 +1,27 @@
+# Build output
+build/
+Robot_ros2_ws/build
+/uros_ws/build
+dist/
+out/
+
+# CMake build folders
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Compiled code
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+
+# IDE files
+.vscode/
+*.code-workspace
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

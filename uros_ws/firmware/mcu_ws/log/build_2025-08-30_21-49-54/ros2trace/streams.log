@@ -1,0 +1,63 @@
+[0.906s] Invoking command in '/home/idgaf/uros_ws/firmware/mcu_ws/ros2/ros2_tracing/ros2trace': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_trace:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_trace/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed install_data
+[1.195s] running egg_info
+[1.200s] creating ../../../build/ros2trace/ros2trace.egg-info
+[1.226s] writing ../../../build/ros2trace/ros2trace.egg-info/PKG-INFO
+[1.230s] writing dependency_links to ../../../build/ros2trace/ros2trace.egg-info/dependency_links.txt
+[1.230s] writing entry points to ../../../build/ros2trace/ros2trace.egg-info/entry_points.txt
+[1.230s] writing requirements to ../../../build/ros2trace/ros2trace.egg-info/requires.txt
+[1.230s] writing top-level names to ../../../build/ros2trace/ros2trace.egg-info/top_level.txt
+[1.230s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.263s] reading manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.264s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.264s] running build
+[1.264s] running build_py
+[1.264s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build
+[1.264s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib
+[1.264s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[1.265s] copying ros2trace/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[1.265s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[1.265s] copying ros2trace/api/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[1.265s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/verb
+[1.265s] copying ros2trace/verb/resume.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/verb
+[1.265s] copying ros2trace/verb/pause.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/verb
+[1.265s] copying ros2trace/verb/start.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/verb
+[1.266s] copying ros2trace/verb/stop.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/verb
+[1.266s] copying ros2trace/verb/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/verb
+[1.266s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.267s] copying ros2trace/command/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.267s] copying ros2trace/command/trace.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.267s] running install
+[1.275s] running install_lib
+[1.289s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace
+[1.289s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/api
+[1.289s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/api
+[1.290s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/verb
+[1.290s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/verb/resume.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/verb
+[1.290s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/verb/pause.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/verb
+[1.290s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/verb/start.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/verb
+[1.290s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/verb/stop.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/verb
+[1.290s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/verb/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/verb
+[1.290s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/command
+[1.290s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/command
+[1.290s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command/trace.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/command
+[1.290s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace
+[1.291s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/api/__init__.py to __init__.cpython-312.pyc
+[1.291s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/verb/resume.py to resume.cpython-312.pyc
+[1.292s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/verb/pause.py to pause.cpython-312.pyc
+[1.292s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/verb/start.py to start.cpython-312.pyc
+[1.293s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/verb/stop.py to stop.cpython-312.pyc
+[1.293s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/verb/__init__.py to __init__.cpython-312.pyc
+[1.293s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/command/__init__.py to __init__.cpython-312.pyc
+[1.294s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/command/trace.py to trace.cpython-312.pyc
+[1.294s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace/__init__.py to __init__.cpython-312.pyc
+[1.294s] running install_data
+[1.294s] copying package.xml -> /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/share/ros2trace
+[1.295s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/share/ament_index
+[1.295s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/share/ament_index/resource_index
+[1.295s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/share/ament_index/resource_index/packages
+[1.295s] copying resource/ros2trace -> /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/share/ament_index/resource_index/packages
+[1.295s] running install_egg_info
+[1.309s] Copying ../../../build/ros2trace/ros2trace.egg-info to /home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages/ros2trace-8.2.4-py3.12.egg-info
+[1.310s] running install_scripts
+[1.419s] writing list of installed files to '/home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/install.log'
+[1.705s] Invoked command in '/home/idgaf/uros_ws/firmware/mcu_ws/ros2/ros2_tracing/ros2trace' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_trace:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/mcu_ws/install/ros2trace/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_trace/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/idgaf/uros_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed install_data

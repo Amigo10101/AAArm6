@@ -1,0 +1,165 @@
+[0.007s] Invoking command in '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages /usr/bin/cmake /home/idgaf/uros_ws/firmware/dev_ws/ament/ament_cmake/ament_cmake_vendor_package -DCMAKE_INSTALL_PREFIX=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package
+[0.018s] -- Found ament_cmake_core: 2.5.4 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake)
+[0.127s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.182s] -- Found ament_cmake_export_dependencies: 2.5.4 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies/share/ament_cmake_export_dependencies/cmake)
+[0.281s] -- The C compiler identification is GNU 11.4.0
+[0.322s] -- The CXX compiler identification is GNU 11.4.0
+[0.331s] -- Detecting C compiler ABI info
+[0.391s] -- Detecting C compiler ABI info - done
+[0.402s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.402s] -- Detecting C compile features
+[0.403s] -- Detecting C compile features - done
+[0.409s] -- Detecting CXX compiler ABI info
+[0.487s] -- Detecting CXX compiler ABI info - done
+[0.496s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.496s] -- Detecting CXX compile features
+[0.496s] -- Detecting CXX compile features - done
+[0.497s] -- Found ament_cmake_test: 2.5.4 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake)
+[0.533s] -- Configuring done (0.5s)
+[0.544s] -- Generating done (0.0s)
+[0.549s] -- Build files have been written to: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package
+[0.572s] Invoked command in '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages /usr/bin/cmake /home/idgaf/uros_ws/firmware/dev_ws/ament/ament_cmake/ament_cmake_vendor_package -DCMAKE_INSTALL_PREFIX=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package
+[0.573s] Invoking command in '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages /usr/bin/cmake --build /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package -- -j16 -l16
+[1.428s] [  8%] [34m[1mCreating directories for 'exlib_bad'[0m
+[1.428s] [  8%] [34m[1mCreating directories for 'exlib_good'[0m
+[1.428s] [ 12%] [34m[1mNo download step for 'exlib_bad'[0m
+[1.428s] [ 16%] [34m[1mNo download step for 'exlib_good'[0m
+[1.428s] [ 20%] [34m[1mNo update_disconnected step for 'exlib_bad'[0m
+[1.428s] [ 25%] [34m[1mNo update_disconnected step for 'exlib_good'[0m
+[1.428s] [ 29%] [34m[1mNo patch_disconnected step for 'exlib_bad'[0m
+[1.428s] [ 33%] [34m[1mNo patch_disconnected step for 'exlib_good'[0m
+[1.428s] [ 37%] [34m[1mPerforming configure step for 'exlib_bad'[0m
+[1.428s] [ 41%] [34m[1mPerforming configure step for 'exlib_good'[0m
+[1.428s] loading initial cache file /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-config.cmake
+[1.428s] loading initial cache file /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-config.cmake
+[1.428s] -- The C compiler identification is GNU 11.4.0
+[1.428s] -- The C compiler identification is GNU 11.4.0
+[1.428s] -- The CXX compiler identification is GNU 11.4.0
+[1.428s] -- The CXX compiler identification is GNU 11.4.0
+[1.428s] -- Detecting C compiler ABI info
+[1.428s] -- Detecting C compiler ABI info
+[1.428s] -- Detecting C compiler ABI info - done
+[1.428s] -- Detecting C compiler ABI info - done
+[1.428s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.429s] -- Detecting C compile features
+[1.429s] -- Detecting C compile features
+[1.429s] -- Detecting C compile features - done
+[1.429s] -- Detecting C compile features - done
+[1.429s] -- Detecting CXX compiler ABI info
+[1.429s] -- Detecting CXX compiler ABI info
+[1.429s] -- Detecting CXX compiler ABI info - done
+[1.429s] -- Detecting CXX compiler ABI info - done
+[1.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.429s] -- Detecting CXX compile features
+[1.429s] -- Detecting CXX compile features - done
+[1.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.429s] -- Detecting CXX compile features
+[1.429s] -- Detecting CXX compile features - done
+[1.429s] -- Configuring done (0.2s)
+[1.429s] -- Configuring done (0.2s)
+[1.429s] -- Generating done (0.0s)
+[1.429s] -- Generating done (0.0s)
+[1.429s] -- Build files have been written to: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-build
+[1.429s] -- Build files have been written to: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/src/exlib_bad-build
+[1.429s] [ 45%] [34m[1mPerforming build step for 'exlib_bad'[0m
+[1.429s] [ 50%] [34m[1mPerforming build step for 'exlib_good'[0m
+[1.429s] [ 50%] [32mBuilding C object CMakeFiles/exlib.dir/src/exlib.c.o[0m
+[1.429s] [ 50%] [32mBuilding C object CMakeFiles/exlib.dir/src/exlib.c.o[0m
+[1.429s] [100%] [32m[1mLinking C shared library libexlib.so[0m
+[1.429s] [100%] [32m[1mLinking C shared library libexlib.so[0m
+[1.429s] [100%] Built target exlib
+[1.429s] [100%] Built target exlib
+[1.430s] [ 54%] [34m[1mPerforming install step for 'exlib_bad'[0m
+[1.430s] [ 58%] [34m[1mPerforming install step for 'exlib_good'[0m
+[1.430s] [100%] Built target exlib
+[1.430s] [100%] Built target exlib
+[1.430s] [36mInstall the project...[0m
+[1.430s] [36mInstall the project...[0m
+[1.430s] -- Install configuration: ""
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/lib/libexlib.so
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include/exlib
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include/exlib/exlib.h
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include/exlib/visibility_control.h
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/lib/cmake/exlib/exlibTargets.cmake
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/lib/cmake/exlib/exlibTargets-noconfig.cmake
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/lib/cmake/exlib/exlibConfig.cmake
+[1.430s] -- Install configuration: ""
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/lib/libexlib.so
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/include
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/include/exlib
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/include/exlib/exlib.h
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/include/exlib/visibility_control.h
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/lib/cmake/exlib/exlibTargets.cmake
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/lib/cmake/exlib/exlibTargets-noconfig.cmake
+[1.430s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/lib/cmake/exlib/exlibConfig.cmake
+[1.430s] [ 62%] [34m[1mCompleted 'exlib_bad'[0m
+[1.430s] [ 66%] [34m[1mCompleted 'exlib_good'[0m
+[1.430s] [ 66%] Built target exlib_bad
+[1.430s] [ 66%] Built target exlib_good
+[1.430s] [ 70%] [34m[1mCreating directories for 'depender'[0m
+[1.431s] [ 75%] [34m[1mNo download step for 'depender'[0m
+[1.431s] [ 79%] [34m[1mNo update_disconnected step for 'depender'[0m
+[1.431s] [ 83%] [34m[1mNo patch_disconnected step for 'depender'[0m
+[1.431s] [ 87%] [34m[1mPerforming configure step for 'depender'[0m
+[1.431s] loading initial cache file /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/depender-config.cmake
+[1.431s] -- The C compiler identification is GNU 11.4.0
+[1.431s] -- The CXX compiler identification is GNU 11.4.0
+[1.431s] -- Detecting C compiler ABI info
+[1.431s] -- Detecting C compiler ABI info - done
+[1.431s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.431s] -- Detecting C compile features
+[1.431s] -- Detecting C compile features - done
+[1.431s] -- Detecting CXX compiler ABI info
+[1.431s] -- Detecting CXX compiler ABI info - done
+[1.431s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.431s] -- Detecting CXX compile features
+[1.431s] -- Detecting CXX compile features - done
+[1.431s] -- Configuring done (0.2s)
+[1.431s] -- Generating done (0.0s)
+[1.431s] -- Build files have been written to: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-build
+[1.431s] [ 91%] [34m[1mPerforming build step for 'depender'[0m
+[1.433s] [ 50%] [32mBuilding C object CMakeFiles/depender.dir/src/depender.c.o[0m
+[1.451s] [100%] [32m[1mLinking C executable depender[0m
+[1.477s] [100%] Built target depender
+[1.493s] [ 95%] [34m[1mPerforming install step for 'depender'[0m
+[1.521s] [100%] Built target depender
+[1.532s] [36mInstall the project...[0m
+[1.539s] -- Install configuration: ""
+[1.539s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/depender-prefix/install/bin/depender
+[1.539s] -- Set non-toolchain portion of runtime path of "/home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/depender-prefix/install/bin/depender" to ""
+[1.550s] [100%] [34m[1mCompleted 'depender'[0m
+[1.573s] [100%] Built target depender
+[1.680s] Invoked command in '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages /usr/bin/cmake --build /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package -- -j16 -l16
+[1.681s] Invoking command in '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages /usr/bin/cmake --install /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package
+[1.703s] -- Install configuration: ""
+[1.703s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_index/resource_index/package_run_dependencies/ament_cmake_vendor_package
+[1.703s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_index/resource_index/parent_prefix_path/ament_cmake_vendor_package
+[1.703s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/ament_prefix_path.sh
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/ament_prefix_path.dsv
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/path.sh
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/path.dsv
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.bash
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.sh
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.zsh
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.dsv
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/package.dsv
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_index/resource_index/packages/ament_cmake_vendor_package
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_vendor_package-extras.cmake
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_vendor_packageConfig.cmake
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_vendor_packageConfig-version.cmake
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/package.xml
+[1.704s] -- Up-to-date: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake
+[1.704s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates
+[1.705s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.sh.in
+[1.705s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package.bat.in
+[1.705s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.dsv.in
+[1.705s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.cmake.in
+[1.705s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.bat.in
+[1.705s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/target.repos.in
+[1.705s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package.dsv.in
+[1.705s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package.sh.in
+[1.705s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_vendor.cmake
+[1.722s] Invoked command in '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages /usr/bin/cmake --install /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_vendor_package

@@ -1,0 +1,44 @@
+[0.410s] Invoking command in '/home/idgaf/uros_ws/firmware/dev_ws/ament/ament_lint/ament_flake8': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build install --record /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/install.log --single-version-externally-managed install_data
+[0.566s] running egg_info
+[0.566s] creating ../../../build/ament_flake8/ament_flake8.egg-info
+[0.574s] writing ../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[0.574s] writing dependency_links to ../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[0.574s] writing entry points to ../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[0.574s] writing requirements to ../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[0.574s] writing top-level names to ../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[0.574s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.592s] reading manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.592s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.592s] running build
+[0.592s] running build_py
+[0.592s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build
+[0.593s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build/lib
+[0.593s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.593s] copying ament_flake8/pytest_marker.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.593s] copying ament_flake8/main.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.593s] copying ament_flake8/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.593s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.593s] copying ament_flake8/configuration/ament_flake8.ini -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.593s] running install
+[0.598s] running install_lib
+[0.607s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages/ament_flake8
+[0.607s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages/ament_flake8
+[0.607s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/main.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages/ament_flake8
+[0.607s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages/ament_flake8
+[0.607s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages/ament_flake8/configuration
+[0.607s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages/ament_flake8/configuration
+[0.608s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-312.pyc
+[0.608s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages/ament_flake8/main.py to main.cpython-312.pyc
+[0.610s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages/ament_flake8/__init__.py to __init__.cpython-312.pyc
+[0.610s] running install_data
+[0.610s] copying package.xml -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/share/ament_flake8
+[0.611s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/share/ament_index
+[0.611s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index
+[0.611s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index/packages
+[0.611s] copying resource/ament_flake8 -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index/packages
+[0.611s] running install_egg_info
+[0.620s] Copying ../../../build/ament_flake8/ament_flake8.egg-info to /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages/ament_flake8-0.17.3-py3.12.egg-info
+[0.621s] running install_scripts
+[0.690s] Installing ament_flake8 script to /home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/bin
+[0.690s] writing list of installed files to '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/install.log'
+[0.717s] Invoked command in '/home/idgaf/uros_ws/firmware/dev_ws/ament/ament_lint/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/build install --record /home/idgaf/uros_ws/firmware/dev_ws/build/ament_flake8/install.log --single-version-externally-managed install_data

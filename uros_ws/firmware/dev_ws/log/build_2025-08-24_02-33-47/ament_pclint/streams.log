@@ -1,0 +1,79 @@
+[1.642s] Invoking command in '/home/idgaf/uros_ws/firmware/dev_ws/ament/ament_lint/ament_pclint': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build install --record /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed install_data
+[1.833s] running egg_info
+[1.834s] creating ../../../build/ament_pclint/ament_pclint.egg-info
+[1.842s] writing ../../../build/ament_pclint/ament_pclint.egg-info/PKG-INFO
+[1.842s] writing dependency_links to ../../../build/ament_pclint/ament_pclint.egg-info/dependency_links.txt
+[1.843s] writing entry points to ../../../build/ament_pclint/ament_pclint.egg-info/entry_points.txt
+[1.843s] writing requirements to ../../../build/ament_pclint/ament_pclint.egg-info/requires.txt
+[1.843s] writing top-level names to ../../../build/ament_pclint/ament_pclint.egg-info/top_level.txt
+[1.843s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.861s] reading manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.862s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.862s] running build
+[1.862s] running build_py
+[1.862s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build
+[1.862s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib
+[1.862s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[1.863s] copying ament_pclint/main.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[1.863s] copying ament_pclint/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[1.863s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.863s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.863s] copying ament_pclint/config/gcc/co-g++.h -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.863s] copying ament_pclint/config/gcc/co-g++.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.863s] copying ament_pclint/config/gcc/co-gcc.h -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.863s] copying ament_pclint/config/gcc/co-gcc.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.864s] copying ament_pclint/config/gcc/co-osx-g++.h -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.864s] copying ament_pclint/config/gcc/co-osx-g++.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.864s] copying ament_pclint/config/gcc/co-osx-gcc.h -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.864s] copying ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.864s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.865s] copying ament_pclint/config/msvc/co-cl.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.865s] copying ament_pclint/config/msvc/co-cl++.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.865s] copying ament_pclint/config/msvc/co-cl.h -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.865s] copying ament_pclint/config/au-misra3.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.865s] copying ament_pclint/config/au-misra3-amd1.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.865s] copying ament_pclint/config/au-misra-cpp.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.866s] copying ament_pclint/config/c99.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.866s] copying ament_pclint/config/c++.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.866s] copying ament_pclint/config/deprecate.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.866s] copying ament_pclint/config/env-xml.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.866s] running install
+[1.870s] running install_lib
+[1.882s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint
+[1.882s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config
+[1.883s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/env-xml.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config
+[1.883s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/deprecate.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config
+[1.883s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3-amd1.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config
+[1.883s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c99.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config
+[1.883s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config/msvc
+[1.883s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl++.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config/msvc
+[1.884s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.h -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config/msvc
+[1.884s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config/msvc
+[1.884s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config/gcc
+[1.884s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config/gcc
+[1.884s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.h -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config/gcc
+[1.884s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.h -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config/gcc
+[1.884s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config/gcc
+[1.884s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.h -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config/gcc
+[1.884s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.h -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config/gcc
+[1.884s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config/gcc
+[1.884s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config/gcc
+[1.884s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config
+[1.885s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c++.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config
+[1.885s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra-cpp.lnt -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/config
+[1.885s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/main.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint
+[1.885s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint
+[1.885s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/main.py to main.cpython-312.pyc
+[1.888s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint/__init__.py to __init__.cpython-312.pyc
+[1.888s] running install_data
+[1.888s] copying package.xml -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/share/ament_pclint
+[1.888s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index
+[1.889s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index
+[1.889s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[1.889s] copying resource/ament_pclint -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[1.889s] running install_egg_info
+[1.906s] Copying ../../../build/ament_pclint/ament_pclint.egg-info to /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages/ament_pclint-0.17.3-py3.12.egg-info
+[1.907s] running install_scripts
+[1.986s] Installing ament_pclint script to /home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/bin
+[1.986s] writing list of installed files to '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/install.log'
+[2.010s] Invoked command in '/home/idgaf/uros_ws/firmware/dev_ws/ament/ament_lint/ament_pclint' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/build install --record /home/idgaf/uros_ws/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed install_data

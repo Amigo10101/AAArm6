@@ -1,0 +1,193 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 8.3.1
+-- The CXX compiler identification is GNU 8.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found builtin_interfaces: 2.0.3 (/home/idgaf/uros_ws/firmware/mcu_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 4.6.6 (/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rosidl_core_generators: 0.2.0 (/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_core_generators/share/rosidl_core_generators/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_introspection_c
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs
+Change Dir: '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j16 -l16
+gmake[1]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+/usr/bin/cmake -S/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rcl_interfaces/service_msgs -B/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/CMakeFiles /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[2]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+/usr/bin/gmake  -f CMakeFiles/service_msgs__rosidl_generator_type_description.dir/build.make CMakeFiles/service_msgs__rosidl_generator_type_description.dir/depend
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rcl_interfaces/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rcl_interfaces/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/CMakeFiles/service_msgs__rosidl_generator_type_description.dir/DependInfo.cmake "--color="
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+/usr/bin/gmake  -f CMakeFiles/service_msgs__rosidl_generator_type_description.dir/build.make CMakeFiles/service_msgs__rosidl_generator_type_description.dir/build
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+[  6%] [34m[1mGenerating type hashes for ROS interfaces[0m
+/usr/bin/python3 /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_type_description/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_generator_type_description__arguments.json
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+[  6%] Built target service_msgs__rosidl_generator_type_description
+/usr/bin/gmake  -f CMakeFiles/service_msgs__rosidl_generator_c.dir/build.make CMakeFiles/service_msgs__rosidl_generator_c.dir/depend
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+[ 13%] [34m[1mGenerating C code for ROS interfaces[0m
+/usr/bin/python3 /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_generator_c__arguments.json
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rcl_interfaces/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rcl_interfaces/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/CMakeFiles/service_msgs__rosidl_generator_c.dir/DependInfo.cmake "--color="
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+/usr/bin/gmake  -f CMakeFiles/service_msgs__rosidl_generator_c.dir/build.make CMakeFiles/service_msgs__rosidl_generator_c.dir/build
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+[ 26%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__functions.c.obj[0m
+[ 26%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__description.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"service_msgs\" -I/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_generator_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/builtin_interfaces/include/builtin_interfaces -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -MD -MT CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__description.c.obj -MF CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__description.c.obj.d -o CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__description.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_generator_c/service_msgs/msg/detail/service_event_info__description.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"service_msgs\" -I/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_generator_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/builtin_interfaces/include/builtin_interfaces -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -MD -MT CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__functions.c.obj -MF CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__functions.c.obj.d -o CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__functions.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_generator_c/service_msgs/msg/detail/service_event_info__functions.c
+[ 33%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__type_support.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"service_msgs\" -I/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_generator_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/builtin_interfaces/include/builtin_interfaces -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -MD -MT CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__type_support.c.obj -MF CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__type_support.c.obj.d -o CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__type_support.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_generator_c/service_msgs/msg/detail/service_event_info__type_support.c
+[ 40%] [32m[1mLinking C static library libservice_msgs__rosidl_generator_c.a[0m
+/usr/bin/cmake -P CMakeFiles/service_msgs__rosidl_generator_c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/service_msgs__rosidl_generator_c.dir/link.txt --verbose=1
+/home/idgaf/uros_ws/firmware/toolchain/bin/arm-none-eabi-ar qc libservice_msgs__rosidl_generator_c.a CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__description.c.obj CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__functions.c.obj CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__type_support.c.obj
+/home/idgaf/uros_ws/firmware/toolchain/bin/arm-none-eabi-ranlib libservice_msgs__rosidl_generator_c.a
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+[ 40%] Built target service_msgs__rosidl_generator_c
+/usr/bin/gmake  -f CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/depend
+/usr/bin/gmake  -f CMakeFiles/service_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/service_msgs__rosidl_typesupport_c.dir/depend
+/usr/bin/gmake  -f CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/build.make CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/depend
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+[ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 53%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 60%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+/usr/bin/python3 /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_c/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_microxrcedds_c rosidl_typesupport_introspection_c
+/usr/bin/python3 /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_introspection_c/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_typesupport_introspection_c__arguments.json
+/usr/bin/python3 /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c/lib/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c --generator-arguments-file /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_typesupport_microxrcedds_c__arguments.json
+/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cmake/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+  warnings.warn(
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rcl_interfaces/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rcl_interfaces/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/CMakeFiles/service_msgs__rosidl_typesupport_c.dir/DependInfo.cmake "--color="
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+/usr/bin/gmake  -f CMakeFiles/service_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/service_msgs__rosidl_typesupport_c.dir/build
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rcl_interfaces/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rcl_interfaces/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color="
+[ 66%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_msgs/msg/service_event_info__type_support.cpp.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-g++ -DROSIDL_TYPESUPPORT_STATIC_TYPESUPPORT -DROS_PACKAGE_NAME=\"service_msgs\" -I/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_generator_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/builtin_interfaces/include/builtin_interfaces -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_c/include/rosidl_typesupport_c -std=c++14 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu++17 -Wall -MD -MT CMakeFiles/service_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_msgs/msg/service_event_info__type_support.cpp.obj -MF CMakeFiles/service_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_msgs/msg/service_event_info__type_support.cpp.obj.d -o CMakeFiles/service_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_msgs/msg/service_event_info__type_support.cpp.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_typesupport_c/service_msgs/msg/service_event_info__type_support.cpp
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+/usr/bin/gmake  -f CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/build
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rcl_interfaces/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rcl_interfaces/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/DependInfo.cmake "--color="
+[ 73%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_msgs/msg/detail/service_event_info__type_support.c.obj[0m
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"service_msgs\" -I/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_typesupport_introspection_c -I/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_generator_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/builtin_interfaces/include/builtin_interfaces -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_introspection_c/include/rosidl_typesupport_introspection_c -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -MD -MT CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_msgs/msg/detail/service_event_info__type_support.c.obj -MF CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_msgs/msg/detail/service_event_info__type_support.c.obj.d -o CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_msgs/msg/detail/service_event_info__type_support.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_typesupport_introspection_c/service_msgs/msg/detail/service_event_info__type_support.c
+/usr/bin/gmake  -f CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/build.make CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/build
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+[ 80%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/service_msgs/msg/detail/microxrcedds/service_event_info__type_support_c.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DROS_PACKAGE_NAME=\"service_msgs\" -I/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_generator_c -I/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_typesupport_microxrcedds_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_microxrcedds_c/include -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rmw/include/rmw -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/builtin_interfaces/include/builtin_interfaces -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_dynamic_typesupport/include/rosidl_dynamic_typesupport -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_introspection_c/include/rosidl_typesupport_introspection_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/microcdr/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu99 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Woverloaded-virtual -MD -MT CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/service_msgs/msg/detail/microxrcedds/service_event_info__type_support_c.c.obj -MF CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/service_msgs/msg/detail/microxrcedds/service_event_info__type_support_c.c.obj.d -o CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/service_msgs/msg/detail/microxrcedds/service_event_info__type_support_c.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/rosidl_typesupport_microxrcedds_c/service_msgs/msg/detail/microxrcedds/service_event_info__type_support_c.c
+[01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand line option '[01m[K-Wnon-virtual-dtor[m[K' is valid for C++/ObjC++ but not for C
+[01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand line option '[01m[K-Woverloaded-virtual[m[K' is valid for C++/ObjC++ but not for C
+[ 86%] [32m[1mLinking CXX static library libservice_msgs__rosidl_typesupport_c.a[0m
+/usr/bin/cmake -P CMakeFiles/service_msgs__rosidl_typesupport_c.dir/cmake_clean_target.cmake
+[ 93%] [32m[1mLinking C static library libservice_msgs__rosidl_typesupport_introspection_c.a[0m
+/usr/bin/cmake -P CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/service_msgs__rosidl_typesupport_c.dir/link.txt --verbose=1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/link.txt --verbose=1
+/home/idgaf/uros_ws/firmware/toolchain/bin/arm-none-eabi-ar qc libservice_msgs__rosidl_typesupport_c.a CMakeFiles/service_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_msgs/msg/service_event_info__type_support.cpp.obj
+/home/idgaf/uros_ws/firmware/toolchain/bin/arm-none-eabi-ar qc libservice_msgs__rosidl_typesupport_introspection_c.a CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_msgs/msg/detail/service_event_info__type_support.c.obj
+/home/idgaf/uros_ws/firmware/toolchain/bin/arm-none-eabi-ranlib libservice_msgs__rosidl_typesupport_c.a
+/home/idgaf/uros_ws/firmware/toolchain/bin/arm-none-eabi-ranlib libservice_msgs__rosidl_typesupport_introspection_c.a
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+[ 93%] Built target service_msgs__rosidl_typesupport_c
+[ 93%] Built target service_msgs__rosidl_typesupport_introspection_c
+[100%] [32m[1mLinking CXX static library libservice_msgs__rosidl_typesupport_microxrcedds_c.a[0m
+/usr/bin/cmake -P CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/link.txt --verbose=1
+/home/idgaf/uros_ws/firmware/toolchain/bin/arm-none-eabi-ar qc libservice_msgs__rosidl_typesupport_microxrcedds_c.a CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/service_msgs/msg/detail/microxrcedds/service_event_info__type_support_c.c.obj
+/home/idgaf/uros_ws/firmware/toolchain/bin/arm-none-eabi-ranlib libservice_msgs__rosidl_typesupport_microxrcedds_c.a
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+[100%] Built target service_msgs__rosidl_typesupport_microxrcedds_c
+/usr/bin/gmake  -f CMakeFiles/service_msgs.dir/build.make CMakeFiles/service_msgs.dir/depend
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rcl_interfaces/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rcl_interfaces/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/CMakeFiles/service_msgs.dir/DependInfo.cmake "--color="
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+/usr/bin/gmake  -f CMakeFiles/service_msgs.dir/build.make CMakeFiles/service_msgs.dir/build
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+gmake[3]: Nothing to be done for 'CMakeFiles/service_msgs.dir/build'.
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+[100%] Built target service_msgs
+gmake[2]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs/CMakeFiles 0
+gmake[1]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/service_msgs'
+
+-- Install configuration: "Debug"
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/ament_index/resource_index/rosidl_interfaces/service_msgs
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.json
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__description.c
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.c
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.c
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg/service_event_info.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/environment/library_path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/environment/library_path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/lib/libservice_msgs__rosidl_generator_c.a
+-- Up-to-date: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/msg
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/msg/detail
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/msg/detail/service_event_info__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/msg/detail/microxrcedds
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_microxrcedds_c.a
+-- Up-to-date: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs
+-- Up-to-date: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+-- Up-to-date: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+-- Up-to-date: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.c
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_c.a
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_c.a
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.idl
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.msg
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/ament_index/resource_index/package_run_dependencies/service_msgs
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/ament_index/resource_index/parent_prefix_path/service_msgs
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/environment/path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/environment/path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/local_setup.bash
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/local_setup.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/local_setup.zsh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/local_setup.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/package.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/ament_index/resource_index/packages/service_msgs
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cExport-debug.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cExport-debug.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cExport-debug.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig-version.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/service_msgs/share/service_msgs/package.xml

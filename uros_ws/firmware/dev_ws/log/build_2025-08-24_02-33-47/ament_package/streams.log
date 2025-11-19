@@ -1,0 +1,100 @@
+[0.788s] Invoking command in '/home/idgaf/uros_ws/firmware/dev_ws/ament/ament_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build install --record /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/install.log --single-version-externally-managed install_data
+[0.923s] running egg_info
+[0.923s] creating ../../build/ament_package/ament_package.egg-info
+[0.930s] writing ../../build/ament_package/ament_package.egg-info/PKG-INFO
+[0.931s] writing dependency_links to ../../build/ament_package/ament_package.egg-info/dependency_links.txt
+[0.931s] writing top-level names to ../../build/ament_package/ament_package.egg-info/top_level.txt
+[0.931s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[0.945s] reading manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[0.945s] adding license file 'LICENSE'
+[0.945s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[0.945s] running build
+[0.945s] running build_py
+[0.946s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build
+[0.946s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib
+[0.946s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[0.946s] copying ament_package/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[0.946s] copying ament_package/templates.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[0.946s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template
+[0.946s] copying ament_package/template/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template
+[0.946s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.946s] copying ament_package/template/environment_hook/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.946s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.947s] copying ament_package/template/prefix_level/_local_setup_util.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.947s] copying ament_package/template/prefix_level/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.947s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[0.947s] copying ament_package/template/package_level/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[0.947s] copying ament_package/template/environment_hook/pythonpath.sh.in -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.947s] copying ament_package/template/environment_hook/ament_prefix_path.sh -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.947s] copying ament_package/template/environment_hook/path.bat -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.947s] copying ament_package/template/environment_hook/pkg_config_path.bat -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.947s] copying ament_package/template/environment_hook/path.sh -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.947s] copying ament_package/template/environment_hook/pkg_config_path.sh -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.947s] copying ament_package/template/environment_hook/ament_prefix_path.bat -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.947s] copying ament_package/template/environment_hook/pythonpath.bat.in -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.947s] copying ament_package/template/environment_hook/library_path.sh -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.947s] copying ament_package/template/package_level/local_setup.bat.in -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[0.948s] copying ament_package/template/package_level/local_setup.sh.in -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[0.948s] copying ament_package/template/package_level/local_setup.zsh.in -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[0.948s] copying ament_package/template/package_level/local_setup.bash.in -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[0.948s] copying ament_package/template/prefix_level/setup.bash -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.948s] copying ament_package/template/prefix_level/local_setup.bat.in -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.948s] copying ament_package/template/prefix_level/setup.sh.in -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.948s] copying ament_package/template/prefix_level/local_setup.sh.in -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.948s] copying ament_package/template/prefix_level/local_setup.zsh -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.948s] copying ament_package/template/prefix_level/local_setup.bash -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.948s] copying ament_package/template/prefix_level/setup.bat.in -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.948s] copying ament_package/template/prefix_level/setup.zsh -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.948s] running install
+[0.951s] running install_lib
+[0.958s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package
+[0.959s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package
+[0.959s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/templates.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package
+[0.959s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template
+[0.959s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/environment_hook
+[0.959s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.sh.in -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/environment_hook
+[0.959s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.sh -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/environment_hook
+[0.959s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.bat -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/environment_hook
+[0.960s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.bat -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/environment_hook
+[0.960s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.sh -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/environment_hook
+[0.960s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.sh -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/environment_hook
+[0.960s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/environment_hook
+[0.960s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.bat -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/environment_hook
+[0.960s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.bat.in -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/environment_hook
+[0.960s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/library_path.sh -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/environment_hook
+[0.960s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template
+[0.960s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/prefix_level
+[0.960s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bash -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/prefix_level
+[0.961s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bat.in -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/prefix_level
+[0.961s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.sh.in -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/prefix_level
+[0.961s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.sh.in -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/prefix_level
+[0.961s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.zsh -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/prefix_level
+[0.961s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bash -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/prefix_level
+[0.961s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/_local_setup_util.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/prefix_level
+[0.961s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/prefix_level
+[0.961s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bat.in -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/prefix_level
+[0.961s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.zsh -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/prefix_level
+[0.961s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/package_level
+[0.961s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bat.in -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/package_level
+[0.962s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.sh.in -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/package_level
+[0.962s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.zsh.in -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/package_level
+[0.962s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/package_level
+[0.962s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bash.in -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/package_level
+[0.962s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/__init__.py to __init__.cpython-312.pyc
+[0.962s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/templates.py to templates.cpython-312.pyc
+[0.963s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/environment_hook/__init__.py to __init__.cpython-312.pyc
+[0.963s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/__init__.py to __init__.cpython-312.pyc
+[0.963s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/prefix_level/_local_setup_util.py to _local_setup_util.cpython-312.pyc
+[0.963s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/prefix_level/__init__.py to __init__.cpython-312.pyc
+[0.963s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package/template/package_level/__init__.py to __init__.cpython-312.pyc
+[0.963s] running install_data
+[0.963s] copying package.xml -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/share/ament_package
+[0.963s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/share/ament_index
+[0.963s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/share/ament_index/resource_index
+[0.963s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/share/ament_index/resource_index/packages
+[0.963s] copying resource/ament_package -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/share/ament_index/resource_index/packages
+[0.963s] running install_egg_info
+[0.971s] Copying ../../build/ament_package/ament_package.egg-info to /home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages/ament_package-0.16.4-py3.12.egg-info
+[0.971s] running install_scripts
+[1.028s] writing list of installed files to '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/install.log'
+[1.051s] Invoked command in '/home/idgaf/uros_ws/firmware/dev_ws/ament/ament_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/build install --record /home/idgaf/uros_ws/firmware/dev_ws/build/ament_package/install.log --single-version-externally-managed install_data

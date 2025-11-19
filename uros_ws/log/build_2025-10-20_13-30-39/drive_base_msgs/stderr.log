@@ -1,0 +1,37 @@
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 40, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 36, in main
+    generate_py(args.generator_arguments_file, args.typesupport_impls.split(';'))
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/generate_py_impl.py", line 78, in generate_py
+    idl_file = parse_idl_file(locator)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    content = parse_idl_string(string, png_file=png_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    tree = get_ast_from_idl_string(idl_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+    return _parser.parse(idl_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 658, in parse
+    return self.parser.parse(text, start=start, on_error=on_error)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 104, in parse
+    return self.parser.parse(stream, chosen_start, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 305, in parse
+    return transformer.transform(solutions[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley_forest.py", line 401, in transform
+    self.visit(root)
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley_forest.py", line 538, in visit
+    super(ForestToParseTree, self).visit(root)
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley_forest.py", line 336, in visit
+    input_stack.pop()
+KeyboardInterrupt
+gmake[2]: *** [/home/idgaf/uros_ws/build/drive_base_msgs/drive_base_msgs__py/CMakeFiles/drive_base_msgs__py.dir/build.make:132: rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:621: drive_base_msgs__py/CMakeFiles/drive_base_msgs__py.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

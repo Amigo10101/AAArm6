@@ -1,0 +1,37 @@
+[1.551s] Invoking command in '/home/idgaf/uros_ws/firmware/dev_ws/ament/ament_lint/ament_clang_tidy': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/build install --record /home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/install.log --single-version-externally-managed install_data
+[1.793s] running egg_info
+[1.798s] creating ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info
+[1.813s] writing ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/PKG-INFO
+[1.813s] writing dependency_links to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/dependency_links.txt
+[1.813s] writing entry points to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/entry_points.txt
+[1.813s] writing requirements to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/requires.txt
+[1.814s] writing top-level names to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/top_level.txt
+[1.815s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.851s] reading manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.852s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.853s] running build
+[1.853s] running build_py
+[1.853s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/build
+[1.853s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib
+[1.853s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.853s] copying ament_clang_tidy/main.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.853s] copying ament_clang_tidy/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.853s] running install
+[1.861s] running install_lib
+[1.879s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.12/site-packages/ament_clang_tidy
+[1.879s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/main.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.12/site-packages/ament_clang_tidy
+[1.880s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.12/site-packages/ament_clang_tidy
+[1.881s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.12/site-packages/ament_clang_tidy/main.py to main.cpython-312.pyc
+[1.885s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.12/site-packages/ament_clang_tidy/__init__.py to __init__.cpython-312.pyc
+[1.885s] running install_data
+[1.885s] copying package.xml -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_clang_tidy
+[1.885s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_index
+[1.885s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index
+[1.886s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[1.886s] copying resource/ament_clang_tidy -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[1.886s] running install_egg_info
+[1.903s] Copying ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info to /home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.12/site-packages/ament_clang_tidy-0.17.3-py3.12.egg-info
+[1.905s] running install_scripts
+[2.023s] Installing ament_clang_tidy script to /home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/bin
+[2.024s] writing list of installed files to '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/install.log'
+[2.050s] Invoked command in '/home/idgaf/uros_ws/firmware/dev_ws/ament/ament_lint/ament_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/build install --record /home/idgaf/uros_ws/firmware/dev_ws/build/ament_clang_tidy/install.log --single-version-externally-managed install_data

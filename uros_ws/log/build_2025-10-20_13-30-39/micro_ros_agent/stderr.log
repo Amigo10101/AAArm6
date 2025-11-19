@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o'
+gmake[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:90: CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/micro_ros_agent.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

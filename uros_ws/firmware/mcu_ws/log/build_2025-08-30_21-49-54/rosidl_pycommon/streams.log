@@ -1,0 +1,32 @@
+[0.606s] Invoking command in '/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_pycommon': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_parser:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_adapter:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_parser:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_adapter:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PATH=/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/bin:${PATH} PYTHONPATH=/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_pycommon/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_pycommon/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_parser/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rosidl_pycommon build --build-base /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_pycommon/build install --record /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_pycommon/install.log --single-version-externally-managed install_data
+[0.787s] running egg_info
+[0.787s] creating ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info
+[0.797s] writing ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/PKG-INFO
+[0.797s] writing dependency_links to ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/dependency_links.txt
+[0.797s] writing requirements to ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/requires.txt
+[0.797s] writing top-level names to ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/top_level.txt
+[0.797s] writing manifest file '../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/SOURCES.txt'
+[0.816s] reading manifest file '../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/SOURCES.txt'
+[0.817s] writing manifest file '../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/SOURCES.txt'
+[0.817s] running build
+[0.817s] running build_py
+[0.817s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_pycommon/build
+[0.817s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_pycommon/build/lib
+[0.817s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_pycommon/build/lib/rosidl_pycommon
+[0.817s] copying rosidl_pycommon/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_pycommon/build/lib/rosidl_pycommon
+[0.822s] running install
+[0.828s] running install_lib
+[0.838s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_pycommon/lib/python3.12/site-packages/rosidl_pycommon
+[0.838s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_pycommon/build/lib/rosidl_pycommon/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_pycommon/lib/python3.12/site-packages/rosidl_pycommon
+[0.838s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_pycommon/lib/python3.12/site-packages/rosidl_pycommon/__init__.py to __init__.cpython-312.pyc
+[0.840s] running install_data
+[0.840s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_pycommon/share/ament_index
+[0.841s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_pycommon/share/ament_index/resource_index
+[0.841s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_pycommon/share/ament_index/resource_index/packages
+[0.841s] copying resource/rosidl_pycommon -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_pycommon/share/ament_index/resource_index/packages
+[0.841s] copying package.xml -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_pycommon/share/rosidl_pycommon
+[0.841s] running install_egg_info
+[0.851s] Copying ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info to /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_pycommon/lib/python3.12/site-packages/rosidl_pycommon-4.6.6-py3.12.egg-info
+[0.851s] running install_scripts
+[0.927s] writing list of installed files to '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_pycommon/install.log'
+[0.949s] Invoked command in '/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_pycommon' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_parser:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_adapter:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_parser:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_adapter:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PATH=/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/bin:${PATH} PYTHONPATH=/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_pycommon/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_pycommon/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_parser/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rosidl_pycommon build --build-base /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_pycommon/build install --record /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_pycommon/install.log --single-version-externally-managed install_data

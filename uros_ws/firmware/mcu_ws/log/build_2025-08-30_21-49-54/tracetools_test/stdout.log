@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../build/tracetools_test/tracetools_test.egg-info
+writing ../../../build/tracetools_test/tracetools_test.egg-info/PKG-INFO
+writing dependency_links to ../../../build/tracetools_test/tracetools_test.egg-info/dependency_links.txt
+writing requirements to ../../../build/tracetools_test/tracetools_test.egg-info/requires.txt
+writing top-level names to ../../../build/tracetools_test/tracetools_test.egg-info/top_level.txt
+writing manifest file '../../../build/tracetools_test/tracetools_test.egg-info/SOURCES.txt'
+reading manifest file '../../../build/tracetools_test/tracetools_test.egg-info/SOURCES.txt'
+writing manifest file '../../../build/tracetools_test/tracetools_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/idgaf/uros_ws/firmware/mcu_ws/build/tracetools_test/build
+creating /home/idgaf/uros_ws/firmware/mcu_ws/build/tracetools_test/build/lib
+creating /home/idgaf/uros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test
+copying tracetools_test/utils.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test
+copying tracetools_test/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test
+copying tracetools_test/case.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test
+copying tracetools_test/mark_process.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test
+running install
+running install_lib
+creating /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/lib/python3.12/site-packages/tracetools_test
+copying /home/idgaf/uros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test/utils.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/lib/python3.12/site-packages/tracetools_test
+copying /home/idgaf/uros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/lib/python3.12/site-packages/tracetools_test
+copying /home/idgaf/uros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test/case.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/lib/python3.12/site-packages/tracetools_test
+copying /home/idgaf/uros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test/mark_process.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/lib/python3.12/site-packages/tracetools_test
+byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/lib/python3.12/site-packages/tracetools_test/utils.py to utils.cpython-312.pyc
+byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/lib/python3.12/site-packages/tracetools_test/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/lib/python3.12/site-packages/tracetools_test/case.py to case.cpython-312.pyc
+byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/lib/python3.12/site-packages/tracetools_test/mark_process.py to mark_process.cpython-312.pyc
+running install_data
+copying package.xml -> /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/share/tracetools_test
+creating /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/share/ament_index
+creating /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/share/ament_index/resource_index
+creating /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/share/ament_index/resource_index/packages
+copying resource/tracetools_test -> /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../build/tracetools_test/tracetools_test.egg-info to /home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_test/lib/python3.12/site-packages/tracetools_test-8.2.4-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/idgaf/uros_ws/firmware/mcu_ws/build/tracetools_test/install.log'

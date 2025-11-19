@@ -1,0 +1,83 @@
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:[m[K In function '[01m[Krosidl_runtime_c_type_description_utils_get_field_map[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:141:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:152:30:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+       rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                              [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:[m[K In function '[01m[Krosidl_runtime_c_type_description_utils_prune_referenced_type_descriptions_in_place[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:524:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:534:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:544:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:[m[K In function '[01m[Krosidl_runtime_c_type_description_utils_individual_type_description_is_valid[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:668:30:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+       rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                              [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:684:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:694:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:[m[K In function '[01m[Krosidl_runtime_c_type_description_utils_type_description_is_valid[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:738:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:758:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:770:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:790:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:800:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:821:30:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+       rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                              [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:835:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:845:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:855:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:865:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:[m[K In function '[01m[Krosidl_runtime_c_type_description_utils_coerce_to_valid_type_description_in_place[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:904:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:915:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:926:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:[m[K In function '[01m[Krosidl_runtime_c_type_description_utils_append_referenced_individual_type_description[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:1191:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:[m[K In function '[01m[Krosidl_runtime_c_type_description_utils_append_referenced_type_description[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:1277:30:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+       rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                              [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:[m[K In function '[01m[Krosidl_runtime_c_type_description_utils_repl_all_type_description_type_names_in_place[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:1438:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c/src/type_description_utils.c:1456:32:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+         rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                                [01;35m[K^~~~~~~~~~~~[m[K

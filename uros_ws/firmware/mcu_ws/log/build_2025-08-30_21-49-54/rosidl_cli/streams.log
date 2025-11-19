@@ -1,0 +1,91 @@
+[1.490s] Invoking command in '/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cli': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build install --record /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/install.log --single-version-externally-managed install_data
+[1.801s] running egg_info
+[1.801s] creating ../../../build/rosidl_cli/rosidl_cli.egg-info
+[1.823s] writing ../../../build/rosidl_cli/rosidl_cli.egg-info/PKG-INFO
+[1.823s] writing dependency_links to ../../../build/rosidl_cli/rosidl_cli.egg-info/dependency_links.txt
+[1.823s] writing entry points to ../../../build/rosidl_cli/rosidl_cli.egg-info/entry_points.txt
+[1.823s] writing requirements to ../../../build/rosidl_cli/rosidl_cli.egg-info/requires.txt
+[1.823s] writing top-level names to ../../../build/rosidl_cli/rosidl_cli.egg-info/top_level.txt
+[1.823s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[1.864s] reading manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[1.865s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[1.865s] running build
+[1.866s] running build_py
+[1.866s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build
+[1.866s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib
+[1.866s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.866s] copying rosidl_cli/entry_points.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.866s] copying rosidl_cli/common.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.867s] copying rosidl_cli/cli.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.867s] copying rosidl_cli/extensions.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.867s] copying rosidl_cli/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.868s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.868s] copying rosidl_cli/command/helpers.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.868s] copying rosidl_cli/command/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.869s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash
+[1.869s] copying rosidl_cli/command/hash/extensions.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash
+[1.869s] copying rosidl_cli/command/hash/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash
+[1.870s] copying rosidl_cli/command/hash/api.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash
+[1.870s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.871s] copying rosidl_cli/command/generate/extensions.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.871s] copying rosidl_cli/command/generate/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.871s] copying rosidl_cli/command/generate/api.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.871s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.872s] copying rosidl_cli/command/translate/extensions.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.872s] copying rosidl_cli/command/translate/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.872s] copying rosidl_cli/command/translate/api.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.873s] running install
+[1.882s] running install_lib
+[1.899s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli
+[1.899s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/entry_points.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli
+[1.899s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/common.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli
+[1.899s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/cli.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli
+[1.899s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/extensions.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli
+[1.899s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command
+[1.900s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/helpers.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command
+[1.900s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/hash
+[1.900s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash/extensions.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/hash
+[1.900s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/hash
+[1.900s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash/api.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/hash
+[1.900s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/generate
+[1.900s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/extensions.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/generate
+[1.900s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/generate
+[1.901s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/api.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/generate
+[1.901s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command
+[1.901s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/translate
+[1.901s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/extensions.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/translate
+[1.901s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/translate
+[1.901s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/api.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/translate
+[1.901s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli
+[1.901s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/entry_points.py to entry_points.cpython-312.pyc
+[1.902s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/common.py to common.cpython-312.pyc
+[1.902s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/cli.py to cli.cpython-312.pyc
+[1.903s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/extensions.py to extensions.cpython-312.pyc
+[1.904s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/helpers.py to helpers.cpython-312.pyc
+[1.905s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/hash/extensions.py to extensions.cpython-312.pyc
+[1.905s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/hash/__init__.py to __init__.cpython-312.pyc
+[1.906s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/hash/api.py to api.cpython-312.pyc
+[1.906s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/generate/extensions.py to extensions.cpython-312.pyc
+[1.907s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/generate/__init__.py to __init__.cpython-312.pyc
+[1.907s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/generate/api.py to api.cpython-312.pyc
+[1.908s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/__init__.py to __init__.cpython-312.pyc
+[1.908s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/translate/extensions.py to extensions.cpython-312.pyc
+[1.908s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/translate/__init__.py to __init__.cpython-312.pyc
+[1.909s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/command/translate/api.py to api.cpython-312.pyc
+[1.910s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli/__init__.py to __init__.cpython-312.pyc
+[1.910s] running install_data
+[1.910s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/share/ament_index
+[1.910s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/share/ament_index/resource_index
+[1.910s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/share/ament_index/resource_index/packages
+[1.910s] copying resource/rosidl_cli -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/share/ament_index/resource_index/packages
+[1.911s] copying package.xml -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/share/rosidl_cli
+[1.911s] copying resource/package.dsv -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/share/rosidl_cli
+[1.911s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/share/rosidl_cli/environment
+[1.911s] copying completion/rosidl-argcomplete.bash -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/share/rosidl_cli/environment
+[1.911s] copying completion/rosidl-argcomplete.zsh -> /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/share/rosidl_cli/environment
+[1.911s] running install_egg_info
+[1.926s] Copying ../../../build/rosidl_cli/rosidl_cli.egg-info to /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages/rosidl_cli-4.6.6-py3.12.egg-info
+[1.927s] running install_scripts
+[2.054s] Installing rosidl script to /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/bin
+[2.054s] writing list of installed files to '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/install.log'
+[2.311s] Invoked command in '/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cli' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/build install --record /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_cli/install.log --single-version-externally-managed install_data

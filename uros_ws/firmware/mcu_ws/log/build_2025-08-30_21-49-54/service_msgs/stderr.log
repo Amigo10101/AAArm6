@@ -1,0 +1,4 @@
+/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_cmake/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+  warnings.warn(
+[01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand line option '[01m[K-Wnon-virtual-dtor[m[K' is valid for C++/ObjC++ but not for C
+[01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand line option '[01m[K-Woverloaded-virtual[m[K' is valid for C++/ObjC++ but not for C

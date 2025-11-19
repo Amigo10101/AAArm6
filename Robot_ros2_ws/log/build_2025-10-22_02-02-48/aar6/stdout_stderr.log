@@ -1,0 +1,52 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/idgaf/Documents/robot/Robot_ros2_ws/build/aar6
+-- Install configuration: ""
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//launch
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//urdf
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//urdf/PAROL6.csv
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//urdf/PAROL6.urdf
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L1.STL
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L6.dae
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/prev.STL
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L5.STL
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L3.STL
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/base_link.STL
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L2.STL
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/Gripper_Body.STL
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L6.STL
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/gripper_finger.STL
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L4.STL
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/ament_index/resource_index/package_run_dependencies/aar6
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/ament_index/resource_index/parent_prefix_path/aar6
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/environment/ament_prefix_path.sh
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/environment/ament_prefix_path.dsv
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/environment/path.sh
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/environment/path.dsv
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/local_setup.bash
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/local_setup.sh
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/local_setup.zsh
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/local_setup.dsv
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/package.dsv
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/ament_index/resource_index/packages/aar6
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/cmake/aar6Config.cmake
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/cmake/aar6Config-version.cmake
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/package.xml

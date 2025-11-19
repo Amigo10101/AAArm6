@@ -1,0 +1,88 @@
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c:[m[K In function '[01m[Krcl_init_options_copy[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c:114:24:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rmw_error_string_t [01;35m[Kerror_string[m[K = rmw_get_error_string();
+                        [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/dynamic_message_type_support.c:[m[K In function '[01m[Krcl_dynamic_message_type_support_handle_init[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/dynamic_message_type_support.c:106:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror_string[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:[m[K In function '[01m[K__validate_node_name_and_namespace[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:56:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+     const char * [01;35m[Kmsg[m[K = rmw_namespace_validation_result_string(validation_result);
+                  [01;35m[K^~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:68:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+     const char * [01;35m[Kmsg[m[K = rmw_node_name_validation_result_string(validation_result);
+                  [01;35m[K^~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:[m[K In function '[01m[K_rcl_wait_for_entities[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:562:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:596:32:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror[m[K' [[01;35m[K-Wunused-variable[m[K]
+         rcutils_error_string_t [01;35m[Kerror[m[K = rcutils_get_error_string();
+                                [01;35m[K^~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:[m[K In function '[01m[K__rcl_get_info_by_topic[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:695:22:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kerror_string[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   rmw_error_string_t [01;35m[Kerror_string[m[K;
+                      [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/network_flow_endpoints.c:[m[K In function '[01m[K__validate_network_flow_endpoint_array[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/network_flow_endpoints.c:38:22:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kerror_string[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   rmw_error_string_t [01;35m[Kerror_string[m[K;
+                      [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/network_flow_endpoints.c:[m[K In function '[01m[Krcl_publisher_get_network_flow_endpoints[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/network_flow_endpoints.c:70:22:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kerror_string[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   rmw_error_string_t [01;35m[Kerror_string[m[K;
+                      [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/network_flow_endpoints.c:[m[K In function '[01m[Krcl_subscription_get_network_flow_endpoints[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/network_flow_endpoints.c:101:22:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kerror_string[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   rmw_error_string_t [01;35m[Kerror_string[m[K;
+                      [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:[m[K In function '[01m[Krcl_resolve_name[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:49:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:[m[K In function '[01m[Krcl_node_init[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:159:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+     const char * [01;35m[Kmsg[m[K = rmw_node_name_validation_result_string(validation_result);
+                  [01;35m[K^~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:187:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+     const char * [01;35m[Kmsg[m[K = rmw_namespace_validation_result_string(validation_result);
+                  [01;35m[K^~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:97:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror[m[K = rmw_get_error_string();
+                            [01;35m[K^~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:114:28:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror[m[K' [[01;35m[K-Wunused-variable[m[K]
+     rcutils_error_string_t [01;35m[Kerror[m[K = rcutils_get_error_string();
+                            [01;35m[K^~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:33:27:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Klocal_args[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   [01;35m[Kconst rcl_arguments_t * local_args[m[K,
+   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:34:27:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kglobal_args[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   [01;35m[Kconst rcl_arguments_t * global_args[m[K,
+   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_resolve_name.c:40:8:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Konly_expand[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   bool [01;35m[Ko[m[Knly_expand,
+        [01;35m[K^[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:124:13:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kfail_ret[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   rcl_ret_t [01;35m[Kfail_ret[m[K = RCL_RET_ERROR;
+             [01;35m[K^~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:[m[K In function '[01m[Krcl_node_type_description_service_handle_request[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:535:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Knode[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   [01;35m[Krcl_node_t * node[m[K,
+   [01;35m[K~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:536:28:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Krequest_header[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   [01;35m[Kconst rmw_request_id_t * request_header[m[K,
+   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:537:72:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Krequest[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   [01;35m[Kconst type_description_interfaces__srv__GetTypeDescription_Request * request[m[K,
+   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:538:67:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kresponse[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   [01;35m[Ktype_description_interfaces__srv__GetTypeDescription_Response * response[m[K)
+   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:[m[K In function '[01m[Krcl_node_type_description_service_init[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:603:19:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kservice[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   [01;35m[Krcl_service_t * service[m[K,
+   [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:[m[K In function '[01m[Krcl_rmw_implementation_identifier_check[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:140:34:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Krmw_error_msg[m[K' [[01;35m[K-Wunused-variable[m[K]
+     const rcutils_error_string_t [01;35m[Krmw_error_msg[m[K = rcl_get_error_string();
+                                  [01;35m[K^~~~~~~~~~~~~[m[K

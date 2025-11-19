@@ -1,0 +1,35 @@
+Not searching for unused variables given on the command line.
+-- Found ament_cmake: 2.5.4 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/idgaf/uros_ws/firmware/mcu_ws/build/common_interfaces
+Change Dir: '/home/idgaf/uros_ws/firmware/mcu_ws/build/common_interfaces'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j16 -l16
+gmake[1]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/common_interfaces'
+/usr/bin/cmake -S/home/idgaf/uros_ws/firmware/mcu_ws/ros2/common_interfaces/common_interfaces -B/home/idgaf/uros_ws/firmware/mcu_ws/build/common_interfaces --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/common_interfaces/CMakeFiles /home/idgaf/uros_ws/firmware/mcu_ws/build/common_interfaces//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[2]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/common_interfaces'
+gmake[2]: Nothing to be done for 'all'.
+gmake[2]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/common_interfaces'
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/common_interfaces/CMakeFiles 0
+gmake[1]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/common_interfaces'
+
+-- Install configuration: "Debug"
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/ament_index/resource_index/package_run_dependencies/common_interfaces
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/ament_index/resource_index/parent_prefix_path/common_interfaces
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/environment/path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/environment/path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/local_setup.bash
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/local_setup.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/local_setup.zsh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/local_setup.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/package.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/ament_index/resource_index/packages/common_interfaces
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/cmake/common_interfacesConfig.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/cmake/common_interfacesConfig-version.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/package.xml

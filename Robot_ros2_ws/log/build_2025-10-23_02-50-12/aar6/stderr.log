@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:48 (install):
+  install TARGETS given target "joint_state_pub" which does not exist.
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

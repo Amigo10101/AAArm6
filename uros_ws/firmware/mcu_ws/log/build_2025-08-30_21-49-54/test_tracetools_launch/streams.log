@@ -1,0 +1,32 @@
+[0.751s] Invoking command in '/home/idgaf/uros_ws/firmware/mcu_ws/ros2/ros2_tracing/test_tracetools_launch': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_launch:/home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_trace:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/mcu_ws/build/test_tracetools_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/mcu_ws/install/test_tracetools_launch/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_launch/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_trace/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test_tracetools_launch build --build-base /home/idgaf/uros_ws/firmware/mcu_ws/build/test_tracetools_launch/build install --record /home/idgaf/uros_ws/firmware/mcu_ws/build/test_tracetools_launch/install.log --single-version-externally-managed install_data
+[0.952s] running egg_info
+[0.953s] creating ../../../build/test_tracetools_launch/test_tracetools_launch.egg-info
+[0.963s] writing ../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/PKG-INFO
+[0.963s] writing dependency_links to ../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/dependency_links.txt
+[0.963s] writing requirements to ../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/requires.txt
+[0.963s] writing top-level names to ../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/top_level.txt
+[0.963s] writing manifest file '../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/SOURCES.txt'
+[0.986s] reading manifest file '../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/SOURCES.txt'
+[0.986s] writing manifest file '../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/SOURCES.txt'
+[0.987s] running build
+[0.987s] running build_py
+[0.987s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/test_tracetools_launch/build
+[0.987s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/test_tracetools_launch/build/lib
+[0.987s] creating /home/idgaf/uros_ws/firmware/mcu_ws/build/test_tracetools_launch/build/lib/test_tracetools_launch
+[0.987s] copying test_tracetools_launch/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/build/test_tracetools_launch/build/lib/test_tracetools_launch
+[0.987s] running install
+[0.993s] running install_lib
+[1.004s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/test_tracetools_launch/lib/python3.12/site-packages/test_tracetools_launch
+[1.004s] copying /home/idgaf/uros_ws/firmware/mcu_ws/build/test_tracetools_launch/build/lib/test_tracetools_launch/__init__.py -> /home/idgaf/uros_ws/firmware/mcu_ws/install/test_tracetools_launch/lib/python3.12/site-packages/test_tracetools_launch
+[1.004s] byte-compiling /home/idgaf/uros_ws/firmware/mcu_ws/install/test_tracetools_launch/lib/python3.12/site-packages/test_tracetools_launch/__init__.py to __init__.cpython-312.pyc
+[1.004s] running install_data
+[1.005s] copying package.xml -> /home/idgaf/uros_ws/firmware/mcu_ws/install/test_tracetools_launch/share/test_tracetools_launch
+[1.005s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/test_tracetools_launch/share/ament_index
+[1.005s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/test_tracetools_launch/share/ament_index/resource_index
+[1.005s] creating /home/idgaf/uros_ws/firmware/mcu_ws/install/test_tracetools_launch/share/ament_index/resource_index/packages
+[1.005s] copying resource/test_tracetools_launch -> /home/idgaf/uros_ws/firmware/mcu_ws/install/test_tracetools_launch/share/ament_index/resource_index/packages
+[1.005s] running install_egg_info
+[1.018s] Copying ../../../build/test_tracetools_launch/test_tracetools_launch.egg-info to /home/idgaf/uros_ws/firmware/mcu_ws/install/test_tracetools_launch/lib/python3.12/site-packages/test_tracetools_launch-8.2.4-py3.12.egg-info
+[1.018s] running install_scripts
+[1.105s] writing list of installed files to '/home/idgaf/uros_ws/firmware/mcu_ws/build/test_tracetools_launch/install.log'
+[1.130s] Invoked command in '/home/idgaf/uros_ws/firmware/mcu_ws/ros2/ros2_tracing/test_tracetools_launch' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_launch:/home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_trace:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/idgaf/uros_ws/firmware/mcu_ws/build/test_tracetools_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/mcu_ws/install/test_tracetools_launch/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_launch/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/mcu_ws/install/tracetools_trace/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test_tracetools_launch build --build-base /home/idgaf/uros_ws/firmware/mcu_ws/build/test_tracetools_launch/build install --record /home/idgaf/uros_ws/firmware/mcu_ws/build/test_tracetools_launch/install.log --single-version-externally-managed install_data

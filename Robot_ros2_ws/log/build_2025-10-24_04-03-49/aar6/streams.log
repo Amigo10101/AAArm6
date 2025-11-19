@@ -1,0 +1,45 @@
+[0.009s] Invoking command in '/home/idgaf/Documents/robot/Robot_ros2_ws/build/aar6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idgaf/Documents/robot/Robot_ros2_ws/build/aar6 -- -j16 -l16
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_state_pub.dir/src/joint_state_pub.cpp.o[0m
+[5.066s] [100%] [32m[1mLinking CXX executable joint_state_pub[0m
+[5.308s] [100%] Built target joint_state_pub
+[5.316s] Invoked command in '/home/idgaf/Documents/robot/Robot_ros2_ws/build/aar6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idgaf/Documents/robot/Robot_ros2_ws/build/aar6 -- -j16 -l16
+[5.324s] Invoking command in '/home/idgaf/Documents/robot/Robot_ros2_ws/build/aar6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idgaf/Documents/robot/Robot_ros2_ws/build/aar6
+[5.330s] -- Install configuration: ""
+[5.330s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//launch
+[5.330s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//launch/display.launch.py
+[5.330s] -- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//launch/monitor.launch.py
+[5.330s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//urdf
+[5.330s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//urdf/PAROL6.csv
+[5.330s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//urdf/PAROL6.urdf
+[5.330s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes
+[5.330s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L1.STL
+[5.330s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L6.dae
+[5.330s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L5.STL
+[5.331s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L6prev.dae
+[5.331s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L3.STL
+[5.331s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/base_link.STL
+[5.331s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L2.STL
+[5.331s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/Gripper_Body.STL
+[5.331s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/gripper_finger.STL
+[5.331s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L4.STL
+[5.331s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L6.stl
+[5.331s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//rviz
+[5.331s] -- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//rviz/rviz_monitor.rviz
+[5.331s] -- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/lib/aar6/joint_state_pub
+[5.334s] -- Set non-toolchain portion of runtime path of "/home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/lib/aar6/joint_state_pub" to ""
+[5.334s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/ament_index/resource_index/package_run_dependencies/aar6
+[5.334s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/ament_index/resource_index/parent_prefix_path/aar6
+[5.334s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/environment/ament_prefix_path.sh
+[5.334s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/environment/ament_prefix_path.dsv
+[5.334s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/environment/path.sh
+[5.334s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/environment/path.dsv
+[5.335s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/local_setup.bash
+[5.335s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/local_setup.sh
+[5.335s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/local_setup.zsh
+[5.335s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/local_setup.dsv
+[5.336s] -- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/package.dsv
+[5.336s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/ament_index/resource_index/packages/aar6
+[5.336s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/cmake/aar6Config.cmake
+[5.336s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/cmake/aar6Config-version.cmake
+[5.336s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/package.xml
+[5.336s] Invoked command in '/home/idgaf/Documents/robot/Robot_ros2_ws/build/aar6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idgaf/Documents/robot/Robot_ros2_ws/build/aar6

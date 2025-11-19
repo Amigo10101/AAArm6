@@ -1,0 +1,71 @@
+[0.012s] Invoking command in '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_gen_version_h': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gtest:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gtest:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages /usr/bin/cmake /home/idgaf/uros_ws/firmware/dev_ws/ament/ament_cmake/ament_cmake_gen_version_h -DCMAKE_INSTALL_PREFIX=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- Detecting C compiler ABI info
+[0.162s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.180s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.260s] -- Detecting CXX compile features
+[0.261s] -- Detecting CXX compile features - done
+[0.261s] -- Found ament_cmake_core: 2.5.4 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake)
+[0.361s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.418s] -- Found ament_cmake_gtest: 2.5.4 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+[0.479s] -- Create new version file for version 2.5.4
+[0.541s] -- Create new version file for version 2.5.4
+[0.602s] -- Create new version file for version 2.5.4
+[0.672s] -- Create new version file for version 2.5.4
+[0.674s] -- Found gtest sources under '/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.676s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.739s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.739s] -- Found Threads: TRUE  
+[0.872s] -- Configuring done (0.9s)
+[0.883s] -- Generating done (0.0s)
+[0.888s] -- Build files have been written to: /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_gen_version_h
+[1.351s] Invoked command in '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_gen_version_h' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gtest:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gtest:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages /usr/bin/cmake /home/idgaf/uros_ws/firmware/dev_ws/ament/ament_cmake/ament_cmake_gen_version_h -DCMAKE_INSTALL_PREFIX=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h
+[1.351s] Invoking command in '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_gen_version_h': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gtest:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gtest:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages /usr/bin/cmake --build /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_gen_version_h -- -j16 -l16
+[1.392s] [ 16%] [34m[1mGenerating ament_generate_version_header/version.hpp[0m
+[1.392s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.392s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.411s] [ 25%] Built target ament_generate_version_header__some_lib
+[2.393s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.554s] [ 33%] Built target gtest_main
+[4.244s] [ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.306s] [ 41%] Built target gtest
+[4.318s] [ 66%] [32mBuilding CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version_h.cpp.o[0m
+[4.319s] [ 66%] [32mBuilding CXX object CMakeFiles/test_ament_generate_version_header.dir/test/test_version_hpp.cpp.o[0m
+[4.319s] [ 66%] [32mBuilding CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version_custom.cpp.o[0m
+[4.319s] [ 75%] [32mBuilding CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version2_h.cpp.o[0m
+[4.320s] [ 83%] [32mBuilding CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version1_h.cpp.o[0m
+[4.900s] [ 91%] [32m[1mLinking CXX executable test_ament_generate_version_header[0m
+[4.911s] [100%] [32m[1mLinking CXX executable test_ament_cmake_gen_version_h[0m
+[4.976s] [100%] Built target test_ament_generate_version_header
+[4.982s] [100%] Built target test_ament_cmake_gen_version_h
+[4.989s] Invoked command in '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_gen_version_h' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gtest:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gtest:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages /usr/bin/cmake --build /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_gen_version_h -- -j16 -l16
+[4.990s] Invoking command in '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_gen_version_h': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gtest:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gtest:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages /usr/bin/cmake --install /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_gen_version_h
+[4.995s] -- Install configuration: ""
+[4.995s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_index/resource_index/package_run_dependencies/ament_cmake_gen_version_h
+[4.996s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_index/resource_index/parent_prefix_path/ament_cmake_gen_version_h
+[4.996s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/ament_prefix_path.sh
+[4.996s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/ament_prefix_path.dsv
+[4.996s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/path.sh
+[4.996s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/path.dsv
+[4.996s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.bash
+[4.996s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.sh
+[4.996s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.zsh
+[4.996s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.dsv
+[4.996s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/package.dsv
+[4.996s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_index/resource_index/packages/ament_cmake_gen_version_h
+[4.996s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_h-extras.cmake
+[4.996s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_hConfig.cmake
+[4.997s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_hConfig-version.cmake
+[4.997s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/package.xml
+[4.997s] -- Up-to-date: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake
+[4.997s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_generate_version_header.cmake
+[4.997s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_h.cmake
+[4.997s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/generate_version_header.cmake.in
+[4.997s] -- Installing: /home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/version.h.in
+[4.997s] Invoked command in '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_gen_version_h' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gtest:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_gtest:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_core:/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PKG_CONFIG_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/idgaf/uros_ws/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_package/lib/python3.12/site-packages /usr/bin/cmake --install /home/idgaf/uros_ws/firmware/dev_ws/build/ament_cmake_gen_version_h

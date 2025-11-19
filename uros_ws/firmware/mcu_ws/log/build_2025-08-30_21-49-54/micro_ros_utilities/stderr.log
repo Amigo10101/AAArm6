@@ -1,0 +1,8 @@
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/micro_ros_utilities/src/type_utilities.c:[m[K In function '[01m[Kprint_type_info[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/micro_ros_utilities/src/type_utilities.c:96:61:[m[K [01;35m[Kwarning: [m[Kformat '[01m[K%u[m[K' expects argument of type '[01m[Kunsigned int[m[K', but argument 7 has type '[01m[Kuint32_t[m[K' {aka '[01m[Kconst long unsigned int[m[K'} [[01;35m[K-Wformat=[m[K]
+       buffer, sizeof(buffer), "%sIntrospection for %s/%s - [01;35m[K%u[m[K members, %zu B\n",
+                                                            [01;35m[K~^[m[K
+                                                            [32m[K%lu[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/micro_ros_utilities/src/type_utilities.c:100:7:[m[K
+       [32m[Kmembers->member_count_[m[K,
+       [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                                 

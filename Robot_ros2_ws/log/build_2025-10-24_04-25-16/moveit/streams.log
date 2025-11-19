@@ -1,0 +1,42 @@
+[0.006s] Invoking command in '/home/idgaf/Documents/robot/Robot_ros2_ws/build/moveit': CMAKE_PREFIX_PATH=/home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6:/home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idgaf/Documents/robot/Robot_ros2_ws/build/moveit -- -j16 -l16
+[0.037s] Invoked command in '/home/idgaf/Documents/robot/Robot_ros2_ws/build/moveit' returned '0': CMAKE_PREFIX_PATH=/home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6:/home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idgaf/Documents/robot/Robot_ros2_ws/build/moveit -- -j16 -l16
+[0.038s] Invoking command in '/home/idgaf/Documents/robot/Robot_ros2_ws/build/moveit': CMAKE_PREFIX_PATH=/home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6:/home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idgaf/Documents/robot/Robot_ros2_ws/build/moveit
+[0.044s] -- Install configuration: ""
+[0.044s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit
+[0.044s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit
+[0.044s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/environment/ament_prefix_path.sh
+[0.044s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/environment/ament_prefix_path.dsv
+[0.044s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/environment/path.sh
+[0.044s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/environment/path.dsv
+[0.044s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/local_setup.bash
+[0.044s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/local_setup.sh
+[0.044s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/local_setup.zsh
+[0.044s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/local_setup.dsv
+[0.044s] -- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/package.dsv
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/ament_index/resource_index/packages/moveit
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/cmake/moveitConfig.cmake
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/cmake/moveitConfig-version.cmake
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/package.xml
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/launch
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/launch/warehouse_db.launch.py
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/launch/demo.launch.py
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/launch/spawn_controllers.launch.py
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/launch/moveit_rviz.launch.py
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/launch/move_group.launch.py
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/launch/setup_assistant.launch.py
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/launch/rsp.launch.py
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/launch/static_virtual_joint_tfs.launch.py
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/config
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/config/ros2_controllers.yaml
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/config/kinematics.yaml
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/config/joint_limits.yaml
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/config/aar6.srdf
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/config/pilz_cartesian_limits.yaml
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/config/initial_positions.yaml
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/config/sensors_3d.yaml
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/config/aar6.urdf.xacro
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/config/moveit_controllers.yaml
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/config/moveit.rviz
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/config/aar6.ros2_control.xacro
+[0.045s] -- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit/share/moveit/.setup_assistant
+[0.046s] Invoked command in '/home/idgaf/Documents/robot/Robot_ros2_ws/build/moveit' returned '0': CMAKE_PREFIX_PATH=/home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6:/home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idgaf/Documents/robot/Robot_ros2_ws/build/moveit

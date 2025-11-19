@@ -1,0 +1,117 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 8.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake_python: 2.5.4 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python/share/ament_cmake_python/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c
+Change Dir: '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j16 -l16
+gmake[1]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+/usr/bin/cmake -S/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_generator_c -B/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[2]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_rosidl_generator_c.dir/build.make CMakeFiles/ament_cmake_python_copy_rosidl_generator_c.dir/depend
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_rosidl_generator_c_setup.dir/build.make CMakeFiles/ament_cmake_python_copy_rosidl_generator_c_setup.dir/depend
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_generator_c /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_generator_c /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/ament_cmake_python_copy_rosidl_generator_c.dir/DependInfo.cmake "--color="
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_generator_c /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_generator_c /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/ament_cmake_python_copy_rosidl_generator_c_setup.dir/DependInfo.cmake "--color="
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_rosidl_generator_c_setup.dir/build.make CMakeFiles/ament_cmake_python_copy_rosidl_generator_c_setup.dir/build
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_rosidl_generator_c.dir/build.make CMakeFiles/ament_cmake_python_copy_rosidl_generator_c.dir/build
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+/usr/bin/cmake -E copy /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_generator_c/setup.cfg /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c/ament_cmake_python/rosidl_generator_c/setup.cfg
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+/usr/bin/cmake -E copy_directory /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_generator_c/rosidl_generator_c /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c/ament_cmake_python/rosidl_generator_c/rosidl_generator_c
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+Built target ament_cmake_python_copy_rosidl_generator_c_setup
+Built target ament_cmake_python_copy_rosidl_generator_c
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_rosidl_generator_c_egg.dir/build.make CMakeFiles/ament_cmake_python_build_rosidl_generator_c_egg.dir/depend
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_generator_c /home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_generator_c /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/ament_cmake_python_build_rosidl_generator_c_egg.dir/DependInfo.cmake "--color="
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_rosidl_generator_c_egg.dir/build.make CMakeFiles/ament_cmake_python_build_rosidl_generator_c_egg.dir/build
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c/ament_cmake_python/rosidl_generator_c && /usr/bin/python3 setup.py egg_info
+running egg_info
+creating rosidl_generator_c.egg-info
+writing rosidl_generator_c.egg-info/PKG-INFO
+writing dependency_links to rosidl_generator_c.egg-info/dependency_links.txt
+writing entry points to rosidl_generator_c.egg-info/entry_points.txt
+writing top-level names to rosidl_generator_c.egg-info/top_level.txt
+writing manifest file 'rosidl_generator_c.egg-info/SOURCES.txt'
+reading manifest file 'rosidl_generator_c.egg-info/SOURCES.txt'
+writing manifest file 'rosidl_generator_c.egg-info/SOURCES.txt'
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+Built target ament_cmake_python_build_rosidl_generator_c_egg
+gmake[2]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles 0
+gmake[1]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_generator_c'
+
+-- Install configuration: "Debug"
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/ament_index/resource_index/rosidl_generator_packages/rosidl_generator_c
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/environment/pythonpath.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/environment/pythonpath.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/lib/python3.12/site-packages/rosidl_generator_c-4.6.6-py3.12.egg-info
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/lib/python3.12/site-packages/rosidl_generator_c-4.6.6-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/lib/python3.12/site-packages/rosidl_generator_c-4.6.6-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/lib/python3.12/site-packages/rosidl_generator_c-4.6.6-py3.12.egg-info/PKG-INFO
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/lib/python3.12/site-packages/rosidl_generator_c-4.6.6-py3.12.egg-info/top_level.txt
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/lib/python3.12/site-packages/rosidl_generator_c-4.6.6-py3.12.egg-info/entry_points.txt
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/lib/python3.12/site-packages/rosidl_generator_c
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/lib/python3.12/site-packages/rosidl_generator_c/cli.py
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/lib/python3.12/site-packages/rosidl_generator_c/__init__.py
+Listing '/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/lib/python3.12/site-packages/rosidl_generator_c'...
+Compiling '/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/lib/python3.12/site-packages/rosidl_generator_c/__init__.py'...
+Compiling '/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/lib/python3.12/site-packages/rosidl_generator_c/cli.py'...
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/ament_index/resource_index/package_run_dependencies/rosidl_generator_c
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/ament_index/resource_index/parent_prefix_path/rosidl_generator_c
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/environment/ament_prefix_path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/environment/ament_prefix_path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/environment/path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/environment/path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/local_setup.bash
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/local_setup.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/local_setup.zsh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/local_setup.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/package.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/ament_index/resource_index/packages/rosidl_generator_c
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/cmake/rosidl_generator_c-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/cmake/rosidl_generator_cConfig.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/cmake/rosidl_generator_cConfig-version.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/package.xml
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/lib/rosidl_generator_c/rosidl_generator_c
+-- Up-to-date: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/cmake/register_c.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__functions.c.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl.h.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/full__description.c.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__type_support.h.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__type_support.h.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__description.c.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__functions.h.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__struct.h.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/rosidl_generator_c__visibility_control.h.in
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/empty__description.c.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/action__type_support.c.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__type_support.c.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__functions.h.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/action__type_support.h.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__functions.c.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__struct.h.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/srv__type_support.c.em
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_generator_c/share/rosidl_generator_c/resource/srv__type_support.h.em

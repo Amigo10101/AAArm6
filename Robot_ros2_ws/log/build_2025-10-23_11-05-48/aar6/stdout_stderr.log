@@ -1,0 +1,41 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/joint_state_pub.dir/src/joint_state_pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable joint_state_pub[0m
+[100%] Built target joint_state_pub
+-- Install configuration: ""
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//launch
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//launch/display.launch.py
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//launch/monitor.launch.py
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//urdf
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//urdf/PAROL6.csv
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//urdf/PAROL6.urdf
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L1.STL
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L6.dae
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L5.STL
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L6prev.dae
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L3.STL
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/base_link.STL
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L2.STL
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/Gripper_Body.STL
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/gripper_finger.STL
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L4.STL
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//meshes/L6.stl
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//rviz
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6//rviz/rviz_monitor.rviz
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/lib/aar6/joint_state_pub
+-- Set non-toolchain portion of runtime path of "/home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/lib/aar6/joint_state_pub" to ""
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/ament_index/resource_index/package_run_dependencies/aar6
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/ament_index/resource_index/parent_prefix_path/aar6
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/environment/ament_prefix_path.sh
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/environment/path.sh
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/environment/path.dsv
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/local_setup.bash
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/local_setup.sh
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/local_setup.zsh
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/local_setup.dsv
+-- Installing: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/package.dsv
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/ament_index/resource_index/packages/aar6
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/cmake/aar6Config.cmake
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/cmake/aar6Config-version.cmake
+-- Up-to-date: /home/idgaf/Documents/robot/Robot_ros2_ws/install/aar6/share/aar6/package.xml

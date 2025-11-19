@@ -1,0 +1,44 @@
+[0.658s] Invoking command in '/home/idgaf/uros_ws/firmware/dev_ws/ament/ament_lint/ament_mypy': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build install --record /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed install_data
+[0.792s] running egg_info
+[0.792s] creating ../../../build/ament_mypy/ament_mypy.egg-info
+[0.798s] writing ../../../build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+[0.798s] writing dependency_links to ../../../build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+[0.799s] writing entry points to ../../../build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+[0.799s] writing requirements to ../../../build/ament_mypy/ament_mypy.egg-info/requires.txt
+[0.799s] writing top-level names to ../../../build/ament_mypy/ament_mypy.egg-info/top_level.txt
+[0.799s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.812s] reading manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.813s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.813s] running build
+[0.813s] running build_py
+[0.813s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build
+[0.813s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build/lib
+[0.813s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[0.813s] copying ament_mypy/pytest_marker.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[0.813s] copying ament_mypy/main.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[0.813s] copying ament_mypy/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[0.813s] creating /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[0.814s] copying ament_mypy/configuration/ament_mypy.ini -> /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[0.814s] running install
+[0.817s] running install_lib
+[0.824s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.12/site-packages/ament_mypy
+[0.825s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/pytest_marker.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.12/site-packages/ament_mypy
+[0.825s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/main.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.12/site-packages/ament_mypy
+[0.825s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/__init__.py -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.12/site-packages/ament_mypy
+[0.825s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.12/site-packages/ament_mypy/configuration
+[0.825s] copying /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration/ament_mypy.ini -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.12/site-packages/ament_mypy/configuration
+[0.825s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.12/site-packages/ament_mypy/pytest_marker.py to pytest_marker.cpython-312.pyc
+[0.825s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.12/site-packages/ament_mypy/main.py to main.cpython-312.pyc
+[0.826s] byte-compiling /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.12/site-packages/ament_mypy/__init__.py to __init__.cpython-312.pyc
+[0.827s] running install_data
+[0.827s] copying package.xml -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/share/ament_mypy
+[0.827s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index
+[0.827s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index
+[0.827s] creating /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[0.827s] copying resource/ament_mypy -> /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[0.827s] running install_egg_info
+[0.835s] Copying ../../../build/ament_mypy/ament_mypy.egg-info to /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.12/site-packages/ament_mypy-0.17.3-py3.12.egg-info
+[0.835s] running install_scripts
+[0.892s] Installing ament_mypy script to /home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/bin
+[0.893s] writing list of installed files to '/home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/install.log'
+[0.977s] Invoked command in '/home/idgaf/uros_ws/firmware/dev_ws/ament/ament_lint/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PATH=/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.12/site-packages:/home/idgaf/uros_ws/firmware/dev_ws/install/ament_lint/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/build install --record /home/idgaf/uros_ws/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed install_data

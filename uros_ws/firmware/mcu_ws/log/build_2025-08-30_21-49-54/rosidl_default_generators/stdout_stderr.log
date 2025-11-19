@@ -1,0 +1,36 @@
+Not searching for unused variables given on the command line.
+-- Found ament_cmake: 2.5.4 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_default_generators
+Change Dir: '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_default_generators'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j16 -l16
+gmake[1]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_default_generators'
+/usr/bin/cmake -S/home/idgaf/uros_ws/firmware/mcu_ws/ros2/rosidl_defaults/rosidl_default_generators -B/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_default_generators --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_default_generators/CMakeFiles /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_default_generators//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[2]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_default_generators'
+gmake[2]: Nothing to be done for 'all'.
+gmake[2]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_default_generators'
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_default_generators/CMakeFiles 0
+gmake[1]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rosidl_default_generators'
+
+-- Install configuration: "Debug"
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/ament_index/resource_index/package_run_dependencies/rosidl_default_generators
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/ament_index/resource_index/parent_prefix_path/rosidl_default_generators
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/environment/ament_prefix_path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/environment/ament_prefix_path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/environment/path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/environment/path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/local_setup.bash
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/local_setup.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/local_setup.zsh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/local_setup.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/package.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/ament_index/resource_index/packages/rosidl_default_generators
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig-version.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_default_generators/share/rosidl_default_generators/package.xml

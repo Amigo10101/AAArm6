@@ -1,0 +1,258 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 8.3.1
+-- The CXX compiler identification is GNU 8.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_python: 2.5.4 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_python/share/ament_cmake_python/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils
+Change Dir: '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j16 -l16
+gmake[1]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/cmake -S/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils -B/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/CMakeFiles /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[2]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_rcutils.dir/build.make CMakeFiles/ament_cmake_python_copy_rcutils.dir/depend
+/usr/bin/gmake  -f CMakeFiles/rcutils.dir/build.make CMakeFiles/rcutils.dir/depend
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/ament_cmake_python_copy_rcutils.dir/DependInfo.cmake "--color="
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_rcutils.dir/build.make CMakeFiles/ament_cmake_python_copy_rcutils.dir/build
+[  3%] [34m[1mExpanding logging_macros.h.em[0m
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/cmake -E copy_directory /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/rcutils /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/ament_cmake_python/rcutils/rcutils
+/usr/bin/cmake -E make_directory include/rcutils
+/usr/bin/python3 -c "import em;em.invoke(   [     '-o', 'include/rcutils/logging_macros.h',     '-D', 'rcutils_module_path=\"/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils\"',     '/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/resource/logging_macros.h.em'   ] )"
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+[  3%] Built target ament_cmake_python_copy_rcutils
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_rcutils_egg.dir/build.make CMakeFiles/ament_cmake_python_build_rcutils_egg.dir/depend
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/ament_cmake_python_build_rcutils_egg.dir/DependInfo.cmake "--color="
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_rcutils_egg.dir/build.make CMakeFiles/ament_cmake_python_build_rcutils_egg.dir/build
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/ament_cmake_python/rcutils && /usr/bin/python3 setup.py egg_info
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/CMakeFiles/rcutils.dir/DependInfo.cmake "--color="
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/gmake  -f CMakeFiles/rcutils.dir/build.make CMakeFiles/rcutils.dir/build
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+[  6%] [32mBuilding C object CMakeFiles/rcutils.dir/src/allocator.c.obj[0m
+[ 16%] [32mBuilding C object CMakeFiles/rcutils.dir/src/env.c.obj[0m
+[ 16%] [32mBuilding C object CMakeFiles/rcutils.dir/src/filesystem.c.obj[0m
+[ 20%] [32mBuilding C object CMakeFiles/rcutils.dir/src/error_handling.c.obj[0m
+[ 23%] [32mBuilding C object CMakeFiles/rcutils.dir/src/find.c.obj[0m
+[ 16%] [32mBuilding C object CMakeFiles/rcutils.dir/src/char_array.c.obj[0m
+[ 30%] [32mBuilding C object CMakeFiles/rcutils.dir/src/array_list.c.obj[0m
+[ 30%] [32mBuilding C object CMakeFiles/rcutils.dir/src/format_string.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/allocator.c.obj -MF CMakeFiles/rcutils.dir/src/allocator.c.obj.d -o CMakeFiles/rcutils.dir/src/allocator.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/allocator.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/env.c.obj -MF CMakeFiles/rcutils.dir/src/env.c.obj.d -o CMakeFiles/rcutils.dir/src/env.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/env.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/error_handling.c.obj -MF CMakeFiles/rcutils.dir/src/error_handling.c.obj.d -o CMakeFiles/rcutils.dir/src/error_handling.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c
+[ 33%] [32mBuilding C object CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/array_list.c.obj -MF CMakeFiles/rcutils.dir/src/array_list.c.obj.d -o CMakeFiles/rcutils.dir/src/array_list.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/array_list.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/char_array.c.obj -MF CMakeFiles/rcutils.dir/src/char_array.c.obj.d -o CMakeFiles/rcutils.dir/src/char_array.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/char_array.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/filesystem.c.obj -MF CMakeFiles/rcutils.dir/src/filesystem.c.obj.d -o CMakeFiles/rcutils.dir/src/filesystem.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c
+[ 36%] [32mBuilding C object CMakeFiles/rcutils.dir/src/hash_map.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj -MF CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj.d -o CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/cmdline_parser.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/find.c.obj -MF CMakeFiles/rcutils.dir/src/find.c.obj.d -o CMakeFiles/rcutils.dir/src/find.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/find.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/format_string.c.obj -MF CMakeFiles/rcutils.dir/src/format_string.c.obj.d -o CMakeFiles/rcutils.dir/src/format_string.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/format_string.c
+[ 40%] [32mBuilding C object CMakeFiles/rcutils.dir/src/logging.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/hash_map.c.obj -MF CMakeFiles/rcutils.dir/src/hash_map.c.obj.d -o CMakeFiles/rcutils.dir/src/hash_map.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/hash_map.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/logging.c.obj -MF CMakeFiles/rcutils.dir/src/logging.c.obj.d -o CMakeFiles/rcutils.dir/src/logging.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c
+[ 43%] [32mBuilding C object CMakeFiles/rcutils.dir/src/process.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/process.c.obj -MF CMakeFiles/rcutils.dir/src/process.c.obj.d -o CMakeFiles/rcutils.dir/src/process.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/process.c
+[ 46%] [32mBuilding C object CMakeFiles/rcutils.dir/src/qsort.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/qsort.c.obj -MF CMakeFiles/rcutils.dir/src/qsort.c.obj.d -o CMakeFiles/rcutils.dir/src/qsort.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/qsort.c
+[ 50%] [32mBuilding C object CMakeFiles/rcutils.dir/src/sha256.c.obj[0m
+[ 53%] [32mBuilding C object CMakeFiles/rcutils.dir/src/repl_str.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/sha256.c.obj -MF CMakeFiles/rcutils.dir/src/sha256.c.obj.d -o CMakeFiles/rcutils.dir/src/sha256.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/sha256.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/repl_str.c.obj -MF CMakeFiles/rcutils.dir/src/repl_str.c.obj.d -o CMakeFiles/rcutils.dir/src/repl_str.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/repl_str.c
+In file included from [01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:35[m[K:
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:[m[K In function '[01m[K__rcutils_convert_uint64_t_into_c_str[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:109:48:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Knumber[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ __rcutils_convert_uint64_t_into_c_str([01;35m[Kuint64_t number[m[K, char * buffer, size_t buffer_size)
+                                       [01;35m[K~~~~~~~~~^~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:109:63:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kbuffer[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ __rcutils_convert_uint64_t_into_c_str(uint64_t number, [01;35m[Kchar * buffer[m[K, size_t buffer_size)
+                                                        [01;35m[K~~~~~~~^~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:109:78:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kbuffer_size[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ __rcutils_convert_uint64_t_into_c_str(uint64_t number, char * buffer, [01;35m[Ksize_t buffer_size[m[K)
+                                                                       [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:[m[K In function '[01m[K__rcutils_format_error_string[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:142:28:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   [01;35m[Krcutils_error_string_t * error_string[m[K,
+   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:143:33:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kerror_state[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   [01;35m[Kconst rcutils_error_state_t * error_state[m[K)
+   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:[m[K In function '[01m[Krcutils_get_error_string[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:240:38:[m[K [01;35m[Kwarning: [m[Kinitializer-string for array of chars is too long
+     return (rcutils_error_string_t) {[01;35m[K"error not set"[m[K};  // NOLINT(readability/braces)
+                                      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:240:38:[m[K [01;36m[Knote: [m[K(near initialization for '[01m[K(anonymous).str[m[K')
+[ 56%] [32mBuilding C object CMakeFiles/rcutils.dir/src/shared_library.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/shared_library.c.obj -MF CMakeFiles/rcutils.dir/src/shared_library.c.obj.d -o CMakeFiles/rcutils.dir/src/shared_library.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/shared_library.c
+In file included from [01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:35[m[K:
+At top level:
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:109:1:[m[K [01;35m[Kwarning: [m[K'[01m[K__rcutils_convert_uint64_t_into_c_str[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[K__rcutils_convert_uint64_t_into_c_str[m[K(uint64_t number, char * buffer, size_t buffer_size)
+ [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:91:1:[m[K [01;35m[Kwarning: [m[K'[01m[K__rcutils_reverse_str[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[K__rcutils_reverse_str[m[K(char * string_in, size_t string_len)
+ [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[ 60%] [32mBuilding C object CMakeFiles/rcutils.dir/src/snprintf.c.obj[0m
+[ 63%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strcasecmp.c.obj[0m
+[ 66%] [32mBuilding C object CMakeFiles/rcutils.dir/src/split.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/strcasecmp.c.obj -MF CMakeFiles/rcutils.dir/src/strcasecmp.c.obj.d -o CMakeFiles/rcutils.dir/src/strcasecmp.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/strcasecmp.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/snprintf.c.obj -MF CMakeFiles/rcutils.dir/src/snprintf.c.obj.d -o CMakeFiles/rcutils.dir/src/snprintf.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/snprintf.c
+[ 70%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strdup.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/split.c.obj -MF CMakeFiles/rcutils.dir/src/split.c.obj.d -o CMakeFiles/rcutils.dir/src/split.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/split.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/strdup.c.obj -MF CMakeFiles/rcutils.dir/src/strdup.c.obj.d -o CMakeFiles/rcutils.dir/src/strdup.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/strdup.c
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c:[m[K In function '[01m[Krcutils_get_env_var_zero_or_one[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c:154:35:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kzero_semantic[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   const char * name, [01;35m[Kconst char * zero_semantic[m[K,
+                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c:155:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kone_semantic[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   [01;35m[Kconst char * one_semantic[m[K)
+   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[ 73%] [32mBuilding C object CMakeFiles/rcutils.dir/src/string_array.c.obj[0m
+[ 76%] [32mBuilding C object CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj[0m
+[ 80%] [32mBuilding C object CMakeFiles/rcutils.dir/src/string_map.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/string_array.c.obj -MF CMakeFiles/rcutils.dir/src/string_array.c.obj.d -o CMakeFiles/rcutils.dir/src/string_array.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/string_array.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj -MF CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj.d -o CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/testing/fault_injection.c
+[ 83%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strerror.c.obj[0m
+running egg_info
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/string_map.c.obj -MF CMakeFiles/rcutils.dir/src/string_map.c.obj.d -o CMakeFiles/rcutils.dir/src/string_map.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/string_map.c
+creating rcutils.egg-info
+[ 86%] [32mBuilding C object CMakeFiles/rcutils.dir/src/time_unix.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/strerror.c.obj -MF CMakeFiles/rcutils.dir/src/strerror.c.obj.d -o CMakeFiles/rcutils.dir/src/strerror.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/strerror.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/time_unix.c.obj -MF CMakeFiles/rcutils.dir/src/time_unix.c.obj.d -o CMakeFiles/rcutils.dir/src/time_unix.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/time_unix.c
+[ 90%] [32mBuilding C object CMakeFiles/rcutils.dir/src/time.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/time.c.obj -MF CMakeFiles/rcutils.dir/src/time.c.obj.d -o CMakeFiles/rcutils.dir/src/time.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/time.c
+writing rcutils.egg-info/PKG-INFO
+writing dependency_links to rcutils.egg-info/dependency_links.txt
+writing top-level names to rcutils.egg-info/top_level.txt
+writing manifest file 'rcutils.egg-info/SOURCES.txt'
+[ 93%] [32mBuilding C object CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj[0m
+[ 96%] [32mBuilding C object CMakeFiles/rcutils.dir/src/uint8_array.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj -MF CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj.d -o CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/atomic_64bits.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc -DRCUTILS_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcutils\" -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/include -I/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/include -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wconversion -Wno-sign-conversion -Wpedantic -MD -MT CMakeFiles/rcutils.dir/src/uint8_array.c.obj -MF CMakeFiles/rcutils.dir/src/uint8_array.c.obj.d -o CMakeFiles/rcutils.dir/src/uint8_array.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/uint8_array.c
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/time_unix.c:48:4:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+ #  [01;35m[Kwarning[m[K no monotonic clock function available
+    [01;35m[K^~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/time_unix.c:48:4:[m[K [01;35m[Kwarning: [m[K#warning no monotonic clock function available [[01;35m[K-Wcpp[m[K]
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/time_unix.c:[m[K In function '[01m[Krcutils_system_time_now[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/time_unix.c:65:7:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kclock_gettime[m[K'; did you mean '[01m[Klocaltime[m[K'? [[01;35m[K-Wimplicit-function-declaration[m[K]
+   if ([01;35m[Kclock_gettime[m[K(CLOCK_REALTIME, &timespec_now) < 0) {
+       [01;35m[K^~~~~~~~~~~~~[m[K
+       [32m[Klocaltime[m[K
+reading manifest file 'rcutils.egg-info/SOURCES.txt'
+writing manifest file 'rcutils.egg-info/SOURCES.txt'
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+[ 96%] Built target ament_cmake_python_build_rcutils_egg
+[100%] [32m[1mLinking C static library librcutils.a[0m
+/usr/bin/cmake -P CMakeFiles/rcutils.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/rcutils.dir/link.txt --verbose=1
+/home/idgaf/uros_ws/firmware/toolchain/bin/arm-none-eabi-ar qc librcutils.a CMakeFiles/rcutils.dir/src/allocator.c.obj CMakeFiles/rcutils.dir/src/array_list.c.obj CMakeFiles/rcutils.dir/src/char_array.c.obj CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj CMakeFiles/rcutils.dir/src/env.c.obj CMakeFiles/rcutils.dir/src/error_handling.c.obj CMakeFiles/rcutils.dir/src/filesystem.c.obj CMakeFiles/rcutils.dir/src/find.c.obj CMakeFiles/rcutils.dir/src/format_string.c.obj CMakeFiles/rcutils.dir/src/hash_map.c.obj CMakeFiles/rcutils.dir/src/logging.c.obj CMakeFiles/rcutils.dir/src/process.c.obj CMakeFiles/rcutils.dir/src/qsort.c.obj CMakeFiles/rcutils.dir/src/repl_str.c.obj CMakeFiles/rcutils.dir/src/sha256.c.obj CMakeFiles/rcutils.dir/src/shared_library.c.obj CMakeFiles/rcutils.dir/src/snprintf.c.obj CMakeFiles/rcutils.dir/src/split.c.obj CMakeFiles/rcutils.dir/src/strcasecmp.c.obj CMakeFiles/rcutils.dir/src/strdup.c.obj CMakeFiles/rcutils.dir/src/strerror.c.obj CMakeFiles/rcutils.dir/src/string_array.c.obj CMakeFiles/rcutils.dir/src/string_map.c.obj CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj CMakeFiles/rcutils.dir/src/time.c.obj CMakeFiles/rcutils.dir/src/time_unix.c.obj CMakeFiles/rcutils.dir/src/uint8_array.c.obj CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj
+/home/idgaf/uros_ws/firmware/toolchain/bin/arm-none-eabi-ranlib librcutils.a
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+[100%] Built target rcutils
+gmake[2]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils/CMakeFiles 0
+gmake[1]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/rcutils'
+
+-- Install configuration: "Debug"
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/environment/pythonpath.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/environment/pythonpath.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/lib/python3.12/site-packages/rcutils-6.7.3-py3.12.egg-info
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/lib/python3.12/site-packages/rcutils-6.7.3-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/lib/python3.12/site-packages/rcutils-6.7.3-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/lib/python3.12/site-packages/rcutils-6.7.3-py3.12.egg-info/PKG-INFO
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/lib/python3.12/site-packages/rcutils-6.7.3-py3.12.egg-info/top_level.txt
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/lib/python3.12/site-packages/rcutils
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/lib/python3.12/site-packages/rcutils/logging.py
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/lib/python3.12/site-packages/rcutils/__init__.py
+Listing '/home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/lib/python3.12/site-packages/rcutils'...
+Compiling '/home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/lib/python3.12/site-packages/rcutils/__init__.py'...
+Compiling '/home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/lib/python3.12/site-packages/rcutils/logging.py'...
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/lib/librcutils.a
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/ament_index/resource_index/package_run_dependencies/rcutils
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/ament_index/resource_index/parent_prefix_path/rcutils
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/environment/ament_prefix_path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/environment/ament_prefix_path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/environment/path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/environment/path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/local_setup.bash
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/local_setup.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/local_setup.zsh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/local_setup.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/package.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/ament_index/resource_index/packages/rcutils
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/rcutilsExport.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/rcutilsExport-debug.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/rcutilsConfig.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/cmake/rcutilsConfig-version.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/share/rcutils/package.xml
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/format_string.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/logging.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/types
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/types/array_list.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/types/string_array.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/types/uint8_array.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/types/hash_map.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/types/string_map.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/types/rcutils_ret.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/types/char_array.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/env.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/filesystem.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/find.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/snprintf.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/visibility_control_macros.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/isalnum_no_locale.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/repl_str.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/visibility_control.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/strerror.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/error_handling.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/strcasecmp.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/qsort.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/time.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/stdatomic_helper
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/stdatomic_helper/win32
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/stdatomic_helper/win32/stdatomic.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/stdatomic_helper/gcc
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/stdatomic_helper/gcc/stdatomic.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/split.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/types.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/process.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/allocator.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/testing
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/testing/fault_injection.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/sha256.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/strdup.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/macros.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/configuration_flags.h.in
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/cmdline_parser.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/stdatomic_helper.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/shared_library.h
+-- Up-to-date: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils
+-- Up-to-date: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/configuration_flags.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils/rcutils/logging_macros.h

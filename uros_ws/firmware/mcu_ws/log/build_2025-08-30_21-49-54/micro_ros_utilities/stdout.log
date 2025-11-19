@@ -1,0 +1,75 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 8.3.1
+-- The CXX compiler identification is GNU 8.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/home/idgaf/uros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rosidl_typesupport_introspection_c: 4.6.6 (/home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake)
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities
+Change Dir: '/home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j16 -l16
+gmake[1]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities'
+/usr/bin/cmake -S/home/idgaf/uros_ws/firmware/mcu_ws/uros/micro_ros_utilities -B/home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities/CMakeFiles /home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[2]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities'
+/usr/bin/gmake  -f CMakeFiles/micro_ros_utilities.dir/build.make CMakeFiles/micro_ros_utilities.dir/depend
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities'
+cd /home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/idgaf/uros_ws/firmware/mcu_ws/uros/micro_ros_utilities /home/idgaf/uros_ws/firmware/mcu_ws/uros/micro_ros_utilities /home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities /home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities /home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities/CMakeFiles/micro_ros_utilities.dir/DependInfo.cmake "--color="
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities'
+/usr/bin/gmake  -f CMakeFiles/micro_ros_utilities.dir/build.make CMakeFiles/micro_ros_utilities.dir/build
+gmake[3]: Entering directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities'
+[ 66%] [32mBuilding C object CMakeFiles/micro_ros_utilities.dir/src/type_utilities.c.obj[0m
+[ 66%] [32mBuilding C object CMakeFiles/micro_ros_utilities.dir/src/string_utilities.c.obj[0m
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc  -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/micro_ros_utilities/include -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/micro_ros_utilities/src -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_introspection_c/include/rosidl_typesupport_introspection_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/micro_ros_utilities.dir/src/string_utilities.c.obj -MF CMakeFiles/micro_ros_utilities.dir/src/string_utilities.c.obj.d -o CMakeFiles/micro_ros_utilities.dir/src/string_utilities.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/micro_ros_utilities/src/string_utilities.c
+/home/idgaf/uros_ws/firmware/freertos_apps/microros_nucleo_f446re_extensions/../../toolchain/bin/arm-none-eabi-gcc  -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/micro_ros_utilities/include -I/home/idgaf/uros_ws/firmware/mcu_ws/uros/micro_ros_utilities/src -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_introspection_c/include/rosidl_typesupport_introspection_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rcutils/include/rcutils -isystem /home/idgaf/uros_ws/firmware/mcu_ws/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -std=c11 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DUSE_HAL_DRIVER -DSTM32F446xx -D_TIMEVAL_DEFINE -O0 -Wall -fdata-sections -ffunction-sections  -DCLOCK_MONOTONIC=0 -g -std=gnu11 -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/micro_ros_utilities.dir/src/type_utilities.c.obj -MF CMakeFiles/micro_ros_utilities.dir/src/type_utilities.c.obj.d -o CMakeFiles/micro_ros_utilities.dir/src/type_utilities.c.obj -c /home/idgaf/uros_ws/firmware/mcu_ws/uros/micro_ros_utilities/src/type_utilities.c
+[100%] [32m[1mLinking C static library libmicro_ros_utilities.a[0m
+/usr/bin/cmake -P CMakeFiles/micro_ros_utilities.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/micro_ros_utilities.dir/link.txt --verbose=1
+/home/idgaf/uros_ws/firmware/toolchain/bin/arm-none-eabi-ar qc libmicro_ros_utilities.a CMakeFiles/micro_ros_utilities.dir/src/string_utilities.c.obj CMakeFiles/micro_ros_utilities.dir/src/type_utilities.c.obj
+/home/idgaf/uros_ws/firmware/toolchain/bin/arm-none-eabi-ranlib libmicro_ros_utilities.a
+gmake[3]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities'
+[100%] Built target micro_ros_utilities
+gmake[2]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities'
+/usr/bin/cmake -E cmake_progress_start /home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities/CMakeFiles 0
+gmake[1]: Leaving directory '/home/idgaf/uros_ws/firmware/mcu_ws/build/micro_ros_utilities'
+
+-- Install configuration: "Debug"
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/include
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/include/micro_ros_utilities
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/include/micro_ros_utilities/string_utilities.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/include/micro_ros_utilities/visibility_control.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/include/micro_ros_utilities/type_utilities.h
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/lib/libmicro_ros_utilities.a
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/library_path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/library_path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/ament_index/resource_index/package_run_dependencies/micro_ros_utilities
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/ament_index/resource_index/parent_prefix_path/micro_ros_utilities
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/ament_prefix_path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/ament_prefix_path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/path.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/path.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.bash
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.sh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.zsh
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/package.dsv
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/ament_index/resource_index/packages/micro_ros_utilities
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/micro_ros_utilitiesConfig.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/micro_ros_utilitiesConfig-version.cmake
+-- Installing: /home/idgaf/uros_ws/firmware/mcu_ws/install/micro_ros_utilities/share/micro_ros_utilities/package.xml

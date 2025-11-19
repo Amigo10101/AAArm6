@@ -1,0 +1,47 @@
+In file included from [01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:35[m[K:
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:[m[K In function '[01m[K__rcutils_convert_uint64_t_into_c_str[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:109:48:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Knumber[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ __rcutils_convert_uint64_t_into_c_str([01;35m[Kuint64_t number[m[K, char * buffer, size_t buffer_size)
+                                       [01;35m[K~~~~~~~~~^~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:109:63:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kbuffer[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ __rcutils_convert_uint64_t_into_c_str(uint64_t number, [01;35m[Kchar * buffer[m[K, size_t buffer_size)
+                                                        [01;35m[K~~~~~~~^~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:109:78:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kbuffer_size[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ __rcutils_convert_uint64_t_into_c_str(uint64_t number, char * buffer, [01;35m[Ksize_t buffer_size[m[K)
+                                                                       [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:[m[K In function '[01m[K__rcutils_format_error_string[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:142:28:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   [01;35m[Krcutils_error_string_t * error_string[m[K,
+   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:143:33:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kerror_state[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   [01;35m[Kconst rcutils_error_state_t * error_state[m[K)
+   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:[m[K In function '[01m[Krcutils_get_error_string[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:240:38:[m[K [01;35m[Kwarning: [m[Kinitializer-string for array of chars is too long
+     return (rcutils_error_string_t) {[01;35m[K"error not set"[m[K};  // NOLINT(readability/braces)
+                                      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:240:38:[m[K [01;36m[Knote: [m[K(near initialization for '[01m[K(anonymous).str[m[K')
+In file included from [01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:35[m[K:
+At top level:
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:109:1:[m[K [01;35m[Kwarning: [m[K'[01m[K__rcutils_convert_uint64_t_into_c_str[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[K__rcutils_convert_uint64_t_into_c_str[m[K(uint64_t number, char * buffer, size_t buffer_size)
+ [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:91:1:[m[K [01;35m[Kwarning: [m[K'[01m[K__rcutils_reverse_str[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[K__rcutils_reverse_str[m[K(char * string_in, size_t string_len)
+ [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c:[m[K In function '[01m[Krcutils_get_env_var_zero_or_one[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c:154:35:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kzero_semantic[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   const char * name, [01;35m[Kconst char * zero_semantic[m[K,
+                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c:155:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kone_semantic[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   [01;35m[Kconst char * one_semantic[m[K)
+   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/time_unix.c:48:4:[m[K [01;35m[Kwarning: [m[K#warning is a GCC extension
+ #  [01;35m[Kwarning[m[K no monotonic clock function available
+    [01;35m[K^~~~~~~[m[K
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/time_unix.c:48:4:[m[K [01;35m[Kwarning: [m[K#warning no monotonic clock function available [[01;35m[K-Wcpp[m[K]
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/time_unix.c:[m[K In function '[01m[Krcutils_system_time_now[m[K':
+[01m[K/home/idgaf/uros_ws/firmware/mcu_ws/uros/rcutils/src/time_unix.c:65:7:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kclock_gettime[m[K'; did you mean '[01m[Klocaltime[m[K'? [[01;35m[K-Wimplicit-function-declaration[m[K]
+   if ([01;35m[Kclock_gettime[m[K(CLOCK_REALTIME, &timespec_now) < 0) {
+       [01;35m[K^~~~~~~~~~~~~[m[K
+       [32m[Klocaltime[m[K
