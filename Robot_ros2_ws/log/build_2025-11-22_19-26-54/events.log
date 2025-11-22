@@ -1,0 +1,231 @@
+[0.000000] (-) TimerEvent: {}
+[0.000131] (aar6) JobQueued: {'identifier': 'aar6', 'dependencies': OrderedDict()}
+[0.000159] (moveit) JobQueued: {'identifier': 'moveit', 'dependencies': OrderedDict({'aar6': '/root/ros2_ws/install/aar6'})}
+[0.000182] (aar6) JobStarted: {'identifier': 'aar6'}
+[0.010760] (aar6) JobProgress: {'identifier': 'aar6', 'progress': 'cmake'}
+[0.011397] (aar6) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/aar6', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/aar6'], 'cwd': '/root/ros2_ws/build/aar6', 'env': OrderedDict({'HOSTNAME': 'idgaf', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/aar6', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.099510] (-) TimerEvent: {}
+[0.145880] (aar6) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199627] (-) TimerEvent: {}
+[0.234078] (aar6) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.250899] (aar6) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299722] (-) TimerEvent: {}
+[0.324461] (aar6) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.331596] (aar6) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.331862] (aar6) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.332382] (aar6) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.339960] (aar6) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399810] (-) TimerEvent: {}
+[0.410565] (aar6) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.417203] (aar6) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.417330] (aar6) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.417825] (aar6) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.423012] (aar6) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.499888] (-) TimerEvent: {}
+[0.506084] (aar6) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.565543] (aar6) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.590438] (aar6) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.599948] (-) TimerEvent: {}
+[0.622241] (aar6) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.632316] (aar6) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.644644] (aar6) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.656420] (aar6) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700137] (-) TimerEvent: {}
+[0.714579] (aar6) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.717856] (aar6) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.785880] (aar6) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.797991] (aar6) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.800219] (-) TimerEvent: {}
+[0.820902] (aar6) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.891680] (aar6) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.900285] (-) TimerEvent: {}
+[0.941195] (aar6) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.000510] (-) TimerEvent: {}
+[1.022826] (aar6) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.023117] (aar6) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.023161] (aar6) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.023411] (aar6) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.023511] (aar6) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.024402] (aar6) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.025114] (aar6) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.027116] (aar6) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.027231] (aar6) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.027754] (aar6) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.028999] (aar6) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.038525] (aar6) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.041595] (aar6) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/aar6\n'}
+[1.048645] (aar6) CommandEnded: {'returncode': 0}
+[1.048988] (aar6) JobProgress: {'identifier': 'aar6', 'progress': 'build'}
+[1.049792] (aar6) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/aar6', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/aar6', 'env': OrderedDict({'HOSTNAME': 'idgaf', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/aar6', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[1.098562] (aar6) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joint_state_pub.dir/src/joint_state_pub.cpp.o\x1b[0m\n'}
+[1.100599] (-) TimerEvent: {}
+[1.200959] (-) TimerEvent: {}
+[1.301204] (-) TimerEvent: {}
+[1.401550] (-) TimerEvent: {}
+[1.501777] (-) TimerEvent: {}
+[1.601980] (-) TimerEvent: {}
+[1.702190] (-) TimerEvent: {}
+[1.802666] (-) TimerEvent: {}
+[1.902993] (-) TimerEvent: {}
+[2.003211] (-) TimerEvent: {}
+[2.103544] (-) TimerEvent: {}
+[2.203867] (-) TimerEvent: {}
+[2.304120] (-) TimerEvent: {}
+[2.404493] (-) TimerEvent: {}
+[2.504742] (-) TimerEvent: {}
+[2.605143] (-) TimerEvent: {}
+[2.705375] (-) TimerEvent: {}
+[2.805713] (-) TimerEvent: {}
+[2.906068] (-) TimerEvent: {}
+[3.006387] (-) TimerEvent: {}
+[3.106731] (-) TimerEvent: {}
+[3.207058] (-) TimerEvent: {}
+[3.307372] (-) TimerEvent: {}
+[3.407716] (-) TimerEvent: {}
+[3.507931] (-) TimerEvent: {}
+[3.608248] (-) TimerEvent: {}
+[3.708569] (-) TimerEvent: {}
+[3.808907] (-) TimerEvent: {}
+[3.909220] (-) TimerEvent: {}
+[4.009560] (-) TimerEvent: {}
+[4.109883] (-) TimerEvent: {}
+[4.210190] (-) TimerEvent: {}
+[4.310513] (-) TimerEvent: {}
+[4.410824] (-) TimerEvent: {}
+[4.511139] (-) TimerEvent: {}
+[4.611373] (-) TimerEvent: {}
+[4.711706] (-) TimerEvent: {}
+[4.812021] (-) TimerEvent: {}
+[4.912323] (-) TimerEvent: {}
+[5.012683] (-) TimerEvent: {}
+[5.112995] (-) TimerEvent: {}
+[5.213313] (-) TimerEvent: {}
+[5.313629] (-) TimerEvent: {}
+[5.413975] (-) TimerEvent: {}
+[5.514303] (-) TimerEvent: {}
+[5.562573] (aar6) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joint_state_pub\x1b[0m\n'}
+[5.614461] (-) TimerEvent: {}
+[5.714822] (-) TimerEvent: {}
+[5.780939] (aar6) StdoutLine: {'line': b'[100%] Built target joint_state_pub\n'}
+[5.787923] (aar6) CommandEnded: {'returncode': 0}
+[5.788317] (aar6) JobProgress: {'identifier': 'aar6', 'progress': 'install'}
+[5.793876] (aar6) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/aar6'], 'cwd': '/root/ros2_ws/build/aar6', 'env': OrderedDict({'HOSTNAME': 'idgaf', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/aar6', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[5.800430] (aar6) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.800548] (aar6) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.800835] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//launch/display.launch.py\n'}
+[5.807440] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//launch/monitor.launch.py\n'}
+[5.813036] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6.csv\n'}
+[5.815003] (-) TimerEvent: {}
+[5.818557] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6.urdf\n'}
+[5.826158] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6/PAROL6.usd\n'}
+[5.832844] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6/configuration/PAROL6_base.usd\n'}
+[5.837886] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6/configuration/PAROL6_physics.usd\n'}
+[5.844718] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6/configuration/PAROL6_robot.usd\n'}
+[5.851295] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6/configuration/PAROL6_sensor.usd\n'}
+[5.857205] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/Gripper_Body.STL\n'}
+[5.861815] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L1.STL\n'}
+[5.866973] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L2.STL\n'}
+[5.872890] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L3.STL\n'}
+[5.877871] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L4.STL\n'}
+[5.883173] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L5.STL\n'}
+[5.887829] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L6.dae\n'}
+[5.894638] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L6.stl\n'}
+[5.899835] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L6prev.dae\n'}
+[5.905307] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/base_link.STL\n'}
+[5.911212] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/fin.dae\n'}
+[5.915202] (-) TimerEvent: {}
+[5.916289] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/gripper_finger.STL\n'}
+[5.923121] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6//rviz/rviz_monitor.rviz\n'}
+[5.929804] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/lib/aar6/joint_state_pub\n'}
+[5.935463] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/ament_index/resource_index/package_run_dependencies/aar6\n'}
+[5.942160] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/ament_index/resource_index/parent_prefix_path/aar6\n'}
+[5.948749] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6/environment/ament_prefix_path.sh\n'}
+[5.953724] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6/environment/ament_prefix_path.dsv\n'}
+[5.960022] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6/environment/path.sh\n'}
+[5.964919] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6/environment/path.dsv\n'}
+[5.971215] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6/local_setup.bash\n'}
+[5.976156] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6/local_setup.sh\n'}
+[5.980583] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6/local_setup.zsh\n'}
+[5.992756] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6/local_setup.dsv\n'}
+[5.998409] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6/package.dsv\n'}
+[6.004286] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/ament_index/resource_index/packages/aar6\n'}
+[6.009747] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6/cmake/aar6Config.cmake\n'}
+[6.014819] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6/cmake/aar6Config-version.cmake\n'}
+[6.015268] (-) TimerEvent: {}
+[6.020840] (aar6) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/aar6/share/aar6/package.xml\n'}
+[6.029313] (aar6) CommandEnded: {'returncode': 0}
+[6.046014] (aar6) JobEnded: {'identifier': 'aar6', 'rc': 0}
+[6.046304] (moveit) JobStarted: {'identifier': 'moveit'}
+[6.049684] (moveit) JobProgress: {'identifier': 'moveit', 'progress': 'cmake'}
+[6.050015] (moveit) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/moveit', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit'], 'cwd': '/root/ros2_ws/build/moveit', 'env': OrderedDict({'HOSTNAME': 'idgaf', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/aar6:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/moveit', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/aar6:/opt/ros/jazzy'}), 'shell': False}
+[6.092180] (moveit) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[6.115403] (-) TimerEvent: {}
+[6.130819] (moveit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[6.143172] (moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.201171] (moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.207515] (moveit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.207659] (moveit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.207980] (moveit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.215677] (-) TimerEvent: {}
+[6.215850] (moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.287373] (moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.297501] (moveit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.297819] (moveit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.298390] (moveit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.299766] (moveit) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.315885] (-) TimerEvent: {}
+[6.372789] (moveit) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[6.416087] (-) TimerEvent: {}
+[6.417456] (moveit) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.490698] (moveit) StdoutLine: {'line': b'-- Configuring done (0.4s)\n'}
+[6.492111] (moveit) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.492978] (moveit) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/moveit\n'}
+[6.496238] (moveit) CommandEnded: {'returncode': 0}
+[6.496451] (moveit) JobProgress: {'identifier': 'moveit', 'progress': 'build'}
+[6.496465] (moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/moveit', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/moveit', 'env': OrderedDict({'HOSTNAME': 'idgaf', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/aar6:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/moveit', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/aar6:/opt/ros/jazzy'}), 'shell': False}
+[6.516295] (-) TimerEvent: {}
+[6.523853] (moveit) CommandEnded: {'returncode': 0}
+[6.524251] (moveit) JobProgress: {'identifier': 'moveit', 'progress': 'install'}
+[6.524557] (moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/moveit'], 'cwd': '/root/ros2_ws/build/moveit', 'env': OrderedDict({'HOSTNAME': 'idgaf', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/aar6:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/moveit', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/aar6:/opt/ros/jazzy'}), 'shell': False}
+[6.529641] (moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.529935] (moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.530191] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit\n'}
+[6.537529] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit\n'}
+[6.544260] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/environment/ament_prefix_path.sh\n'}
+[6.549709] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/environment/ament_prefix_path.dsv\n'}
+[6.554679] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/environment/path.sh\n'}
+[6.559850] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/environment/path.dsv\n'}
+[6.565055] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/local_setup.bash\n'}
+[6.569900] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/local_setup.sh\n'}
+[6.575218] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/local_setup.zsh\n'}
+[6.580704] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/local_setup.dsv\n'}
+[6.586206] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/package.dsv\n'}
+[6.591169] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/ament_index/resource_index/packages/moveit\n'}
+[6.596729] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/cmake/moveitConfig.cmake\n'}
+[6.602213] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/cmake/moveitConfig-version.cmake\n'}
+[6.607309] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/package.xml\n'}
+[6.612986] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/demo.launch.py\n'}
+[6.616401] (-) TimerEvent: {}
+[6.619504] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/move_group.launch.py\n'}
+[6.624495] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/moveit_rviz.launch.py\n'}
+[6.632373] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/rsp.launch.py\n'}
+[6.638890] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/setup_assistant.launch.py\n'}
+[6.644344] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/spawn_controllers.launch.py\n'}
+[6.649694] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/static_virtual_joint_tfs.launch.py\n'}
+[6.655361] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/warehouse_db.launch.py\n'}
+[6.662591] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/aar6.ros2_control.xacro\n'}
+[6.667070] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/aar6.srdf\n'}
+[6.672333] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/aar6.urdf.xacro\n'}
+[6.678924] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/initial_positions.yaml\n'}
+[6.684114] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/joint_limits.yaml\n'}
+[6.688867] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/kinematics.yaml\n'}
+[6.693356] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/moveit.rviz\n'}
+[6.698231] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/moveit_controllers.yaml\n'}
+[6.703200] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/pilz_cartesian_limits.yaml\n'}
+[6.707981] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/ros2_controllers.yaml\n'}
+[6.713635] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/sensors_3d.yaml\n'}
+[6.716590] (-) TimerEvent: {}
+[6.719584] (moveit) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/moveit/share/moveit/.setup_assistant\n'}
+[6.725705] (moveit) CommandEnded: {'returncode': 0}
+[6.733139] (moveit) JobEnded: {'identifier': 'moveit', 'rc': 0}
+[6.733766] (-) EventReactorShutdown: {}

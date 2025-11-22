@@ -1,0 +1,89 @@
+[0.012s] Invoking command in '/root/ros2_ws/build/aar6': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/aar6 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/aar6
+[0.146s] -- The C compiler identification is GNU 13.3.0
+[0.234s] -- The CXX compiler identification is GNU 13.3.0
+[0.251s] -- Detecting C compiler ABI info
+[0.324s] -- Detecting C compiler ABI info - done
+[0.331s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.332s] -- Detecting C compile features
+[0.332s] -- Detecting C compile features - done
+[0.340s] -- Detecting CXX compiler ABI info
+[0.411s] -- Detecting CXX compiler ABI info - done
+[0.417s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.417s] -- Detecting CXX compile features
+[0.418s] -- Detecting CXX compile features - done
+[0.423s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.506s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.565s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.590s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.622s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.632s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.656s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.715s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.718s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.786s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.798s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.821s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.892s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.941s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.023s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.023s] -- Configured cppcheck include dirs: 
+[1.023s] -- Configured cppcheck exclude dirs and/or files: 
+[1.023s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.023s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.024s] -- Added test 'lint_cmake' to check CMake code style
+[1.025s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.027s] -- Added test 'uncrustify' to check C / C++ code style
+[1.027s] -- Configured uncrustify additional arguments: 
+[1.028s] -- Added test 'xmllint' to check XML markup files
+[1.029s] -- Configuring done (1.0s)
+[1.038s] -- Generating done (0.0s)
+[1.042s] -- Build files have been written to: /root/ros2_ws/build/aar6
+[1.049s] Invoked command in '/root/ros2_ws/build/aar6' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/aar6 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/aar6
+[1.050s] Invoking command in '/root/ros2_ws/build/aar6': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/aar6 -- -j16 -l16
+[1.099s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_state_pub.dir/src/joint_state_pub.cpp.o[0m
+[5.562s] [100%] [32m[1mLinking CXX executable joint_state_pub[0m
+[5.781s] [100%] Built target joint_state_pub
+[5.788s] Invoked command in '/root/ros2_ws/build/aar6' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/aar6 -- -j16 -l16
+[5.794s] Invoking command in '/root/ros2_ws/build/aar6': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/aar6
+[5.800s] -- Install configuration: ""
+[5.800s] -- Execute custom install script
+[5.801s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//launch/display.launch.py
+[5.807s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//launch/monitor.launch.py
+[5.813s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6.csv
+[5.818s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6.urdf
+[5.826s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6/PAROL6.usd
+[5.833s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6/configuration/PAROL6_base.usd
+[5.838s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6/configuration/PAROL6_physics.usd
+[5.845s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6/configuration/PAROL6_robot.usd
+[5.851s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//urdf/PAROL6/configuration/PAROL6_sensor.usd
+[5.857s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/Gripper_Body.STL
+[5.862s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L1.STL
+[5.867s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L2.STL
+[5.873s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L3.STL
+[5.878s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L4.STL
+[5.883s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L5.STL
+[5.888s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L6.dae
+[5.895s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L6.stl
+[5.900s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/L6prev.dae
+[5.905s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/base_link.STL
+[5.911s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/fin.dae
+[5.916s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//meshes/gripper_finger.STL
+[5.923s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6//rviz/rviz_monitor.rviz
+[5.930s] -- Symlinking: /root/ros2_ws/install/aar6/lib/aar6/joint_state_pub
+[5.935s] -- Symlinking: /root/ros2_ws/install/aar6/share/ament_index/resource_index/package_run_dependencies/aar6
+[5.942s] -- Symlinking: /root/ros2_ws/install/aar6/share/ament_index/resource_index/parent_prefix_path/aar6
+[5.949s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6/environment/ament_prefix_path.sh
+[5.954s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6/environment/ament_prefix_path.dsv
+[5.960s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6/environment/path.sh
+[5.965s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6/environment/path.dsv
+[5.971s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6/local_setup.bash
+[5.976s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6/local_setup.sh
+[5.981s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6/local_setup.zsh
+[5.993s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6/local_setup.dsv
+[5.998s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6/package.dsv
+[6.004s] -- Symlinking: /root/ros2_ws/install/aar6/share/ament_index/resource_index/packages/aar6
+[6.010s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6/cmake/aar6Config.cmake
+[6.015s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6/cmake/aar6Config-version.cmake
+[6.021s] -- Symlinking: /root/ros2_ws/install/aar6/share/aar6/package.xml
+[6.029s] Invoked command in '/root/ros2_ws/build/aar6' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/aar6

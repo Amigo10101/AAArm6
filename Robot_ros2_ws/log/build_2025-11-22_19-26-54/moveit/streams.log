@@ -1,0 +1,61 @@
+[0.004s] Invoking command in '/root/ros2_ws/build/moveit': AMENT_PREFIX_PATH=/root/ros2_ws/install/aar6:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/aar6:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit
+[0.046s] -- The C compiler identification is GNU 13.3.0
+[0.085s] -- The CXX compiler identification is GNU 13.3.0
+[0.097s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.170s] -- Detecting CXX compiler ABI info
+[0.241s] -- Detecting CXX compiler ABI info - done
+[0.251s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.252s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.254s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.327s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.371s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.444s] -- Configuring done (0.4s)
+[0.446s] -- Generating done (0.0s)
+[0.447s] -- Build files have been written to: /root/ros2_ws/build/moveit
+[0.450s] Invoked command in '/root/ros2_ws/build/moveit' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/aar6:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/aar6:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit
+[0.450s] Invoking command in '/root/ros2_ws/build/moveit': AMENT_PREFIX_PATH=/root/ros2_ws/install/aar6:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/aar6:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/moveit -- -j16 -l16
+[0.478s] Invoked command in '/root/ros2_ws/build/moveit' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/aar6:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/aar6:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/moveit -- -j16 -l16
+[0.478s] Invoking command in '/root/ros2_ws/build/moveit': AMENT_PREFIX_PATH=/root/ros2_ws/install/aar6:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/aar6:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/moveit
+[0.483s] -- Install configuration: ""
+[0.484s] -- Execute custom install script
+[0.484s] -- Symlinking: /root/ros2_ws/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit
+[0.491s] -- Symlinking: /root/ros2_ws/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit
+[0.498s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/environment/ament_prefix_path.sh
+[0.503s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/environment/ament_prefix_path.dsv
+[0.508s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/environment/path.sh
+[0.514s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/environment/path.dsv
+[0.519s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/local_setup.bash
+[0.524s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/local_setup.sh
+[0.529s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/local_setup.zsh
+[0.534s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/local_setup.dsv
+[0.540s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/package.dsv
+[0.545s] -- Symlinking: /root/ros2_ws/install/moveit/share/ament_index/resource_index/packages/moveit
+[0.550s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/cmake/moveitConfig.cmake
+[0.556s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/cmake/moveitConfig-version.cmake
+[0.561s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/package.xml
+[0.567s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/demo.launch.py
+[0.573s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/move_group.launch.py
+[0.578s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/moveit_rviz.launch.py
+[0.586s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/rsp.launch.py
+[0.593s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/setup_assistant.launch.py
+[0.598s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/spawn_controllers.launch.py
+[0.603s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/static_virtual_joint_tfs.launch.py
+[0.609s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/launch/warehouse_db.launch.py
+[0.616s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/aar6.ros2_control.xacro
+[0.621s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/aar6.srdf
+[0.626s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/aar6.urdf.xacro
+[0.633s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/initial_positions.yaml
+[0.638s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/joint_limits.yaml
+[0.643s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/kinematics.yaml
+[0.647s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/moveit.rviz
+[0.652s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/moveit_controllers.yaml
+[0.657s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/pilz_cartesian_limits.yaml
+[0.662s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/ros2_controllers.yaml
+[0.667s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/config/sensors_3d.yaml
+[0.673s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/.setup_assistant
+[0.680s] Invoked command in '/root/ros2_ws/build/moveit' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/aar6:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/aar6:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/moveit

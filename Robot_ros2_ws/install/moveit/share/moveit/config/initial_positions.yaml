@@ -1,9 +1,1 @@
-# Default initial positions for aar6's ros2_control fake system
-
-initial_positions:
-  L1: 0
-  L2: 0
-  L3: 0
-  L4: 0
-  L5: 0
-  L6: 0
+/root/ros2_ws/src/moveit/config/initial_positions.yaml

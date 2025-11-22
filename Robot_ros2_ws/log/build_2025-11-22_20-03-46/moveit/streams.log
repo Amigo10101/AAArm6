@@ -1,0 +1,48 @@
+[0.004s] Invoking command in '/root/ros2_ws/build/moveit': AMENT_PREFIX_PATH=/root/ros2_ws/install/aar6:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/aar6:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/moveit -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit
+[0.013s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.129s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.191s] -- Configuring done (0.2s)
+[0.193s] -- Generating done (0.0s)
+[0.194s] -- Build files have been written to: /root/ros2_ws/build/moveit
+[0.196s] Invoked command in '/root/ros2_ws/build/moveit' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/aar6:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/aar6:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/moveit -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit
+[0.196s] Invoking command in '/root/ros2_ws/build/moveit': AMENT_PREFIX_PATH=/root/ros2_ws/install/aar6:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/aar6:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/moveit -- -j16 -l16
+[0.221s] Invoked command in '/root/ros2_ws/build/moveit' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/aar6:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/aar6:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/moveit -- -j16 -l16
+[0.222s] Invoking command in '/root/ros2_ws/build/moveit': AMENT_PREFIX_PATH=/root/ros2_ws/install/aar6:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/aar6:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/moveit
+[0.226s] -- Install configuration: ""
+[0.227s] -- Execute custom install script
+[0.227s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit
+[0.227s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit
+[0.228s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/environment/ament_prefix_path.sh
+[0.228s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/environment/ament_prefix_path.dsv
+[0.228s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/environment/path.sh
+[0.228s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/environment/path.dsv
+[0.228s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/local_setup.bash
+[0.228s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/local_setup.sh
+[0.229s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/local_setup.zsh
+[0.229s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/local_setup.dsv
+[0.229s] -- Symlinking: /root/ros2_ws/install/moveit/share/moveit/package.dsv
+[0.238s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/ament_index/resource_index/packages/moveit
+[0.238s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/cmake/moveitConfig.cmake
+[0.238s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/cmake/moveitConfig-version.cmake
+[0.239s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/package.xml
+[0.239s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/launch/demo.launch.py
+[0.239s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/launch/move_group.launch.py
+[0.239s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/launch/moveit_rviz.launch.py
+[0.239s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/launch/rsp.launch.py
+[0.240s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/launch/setup_assistant.launch.py
+[0.240s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/launch/spawn_controllers.launch.py
+[0.240s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/launch/static_virtual_joint_tfs.launch.py
+[0.240s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/launch/warehouse_db.launch.py
+[0.241s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/config/aar6.ros2_control.xacro
+[0.241s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/config/aar6.srdf
+[0.241s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/config/aar6.urdf.xacro
+[0.241s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/config/initial_positions.yaml
+[0.241s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/config/joint_limits.yaml
+[0.241s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/config/kinematics.yaml
+[0.242s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/config/moveit.rviz
+[0.242s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/config/moveit_controllers.yaml
+[0.242s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/config/pilz_cartesian_limits.yaml
+[0.242s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/config/ros2_controllers.yaml
+[0.242s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/config/sensors_3d.yaml
+[0.242s] -- Up-to-date symlink: /root/ros2_ws/install/moveit/share/moveit/.setup_assistant
+[0.243s] Invoked command in '/root/ros2_ws/build/moveit' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/aar6:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/aar6:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/moveit

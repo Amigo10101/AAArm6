@@ -1,2 +1,1 @@
-source;share/aar6/environment/ament_prefix_path.sh
-source;share/aar6/environment/path.sh
+/root/ros2_ws/build/aar6/ament_cmake_environment_hooks/local_setup.dsv

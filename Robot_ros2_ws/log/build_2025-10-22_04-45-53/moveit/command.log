@@ -1,2 +1,0 @@
-Invoking command in '/home/idgaf/Documents/robot/Robot_ros2_ws/build/moveit': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/idgaf/Documents/robot/Robot_ros2_ws/src/moveit -DCMAKE_INSTALL_PREFIX=/home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit
-Invoked command in '/home/idgaf/Documents/robot/Robot_ros2_ws/build/moveit' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/idgaf/Documents/robot/Robot_ros2_ws/src/moveit -DCMAKE_INSTALL_PREFIX=/home/idgaf/Documents/robot/Robot_ros2_ws/install/moveit

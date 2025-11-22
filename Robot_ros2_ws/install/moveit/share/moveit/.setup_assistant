@@ -1,10 +1,1 @@
-moveit_setup_assistant_config:
-  urdf:
-    package: aar6
-    relative_path: urdf/PAROL6.urdf
-  srdf:
-    relative_path: config/aar6.srdf
-  package_settings:
-    author_name: ada
-    author_email: awdaw@awd.com
-    generated_timestamp: 1761101237
+/root/ros2_ws/src/moveit/.setup_assistant

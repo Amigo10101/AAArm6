@@ -1,7 +1,0 @@
-[01m[K/home/idgaf/Documents/robot/Robot_ros2_ws/src/aar6/src/joint_state_pub.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
-    1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/joint_state_pub.dir/build.make:76: CMakeFiles/joint_state_pub.dir/src/joint_state_pub.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/joint_state_pub.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
