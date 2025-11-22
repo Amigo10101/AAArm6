@@ -1,6 +1,8 @@
 # Build output
 build/
 Robot_ros2_ws/build
+Robot_ros2_ws/log
+
 /uros_ws/build
 dist/
 out/
