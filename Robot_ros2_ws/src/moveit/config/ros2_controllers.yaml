@@ -6,8 +6,8 @@ controller_manager:
     kin_group_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-  #  joint_state_broadcaster:
-  #     type: joint_state_broadcaster/JointStateBroadcaster
+    #joint_state_broadcaster:
+    #  type: joint_state_broadcaster/JointStateBroadcaster
 
 kin_group_controller:
   ros__parameters:
@@ -18,6 +18,9 @@ kin_group_controller:
       - L4
       - L5
       - L6
-    command_interfaces: []
-    state_interfaces: []
+    command_interfaces:
+      - velocity
+    state_interfaces:
+      - position
+      - velocity
     allow_nonzero_velocity_at_trajectory_end: true

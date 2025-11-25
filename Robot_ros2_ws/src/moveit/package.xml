@@ -43,7 +43,11 @@
   <exec_depend>rviz_default_plugins</exec_depend>
   <exec_depend>tf2_ros</exec_depend>
   <exec_depend>warehouse_ros_mongo</exec_depend>
-
+  
+  <!-- MoveIt Task Constructor -->
+  <exec_depend>moveit_task_constructor_core</exec_depend>
+  <exec_depend>moveit_task_constructor_msgs</exec_depend>
+  <exec_depend>moveit_task_constructor_visualization</exec_depend>
 
   <export>
       <build_type>ament_cmake</build_type>

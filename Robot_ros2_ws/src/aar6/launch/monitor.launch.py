@@ -23,6 +23,13 @@ def generate_launch_description():
     name='joint_state_pub',
     output='screen'
 ),  
+        # Trajectory to MCU Bridge - forwards goals to MCU
+        Node(
+            package='aar6',
+            executable='trajectory_to_mcu_bridge',
+            name='trajectory_to_mcu_bridge',
+            output='screen'
+        ),
 
         # Minimal RViz monitor
         Node(

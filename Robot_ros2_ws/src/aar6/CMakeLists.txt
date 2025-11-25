@@ -9,6 +9,8 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(control_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -30,7 +32,16 @@ ament_target_dependencies(joint_state_pub
   sensor_msgs
 )
 
-install(TARGETS joint_state_pub
+add_executable(trajectory_to_mcu_bridge src/trajectory_to_mcu_bridge.cpp)
+ament_target_dependencies(trajectory_to_mcu_bridge
+  rclcpp
+  std_msgs
+  control_msgs
+)
+
+install(TARGETS 
+  joint_state_pub
+  trajectory_to_mcu_bridge
   DESTINATION lib/${PROJECT_NAME}
 )
 

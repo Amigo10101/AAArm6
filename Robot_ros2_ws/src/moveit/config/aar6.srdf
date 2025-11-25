@@ -35,10 +35,34 @@
         <joint name="L5" value="0"/>
         <joint name="L6" value="0"/>
     </group_state>
-    <group_state name="arms up" group="kin_group">
+    <group_state name="arms_up" group="kin_group">
         <joint name="L1" value="0.047"/>
         <joint name="L2" value="-0.4112"/>
         <joint name="L3" value="-1.289"/>
+        <joint name="L4" value="0"/>
+        <joint name="L5" value="0"/>
+        <joint name="L6" value="0"/>
+    </group_state>
+    <group_state name="waypoint_1" group="kin_group">
+        <joint name="L1" value="0.5"/>
+        <joint name="L2" value="0.3"/>
+        <joint name="L3" value="-0.5"/>
+        <joint name="L4" value="0"/>
+        <joint name="L5" value="0"/>
+        <joint name="L6" value="0"/>
+    </group_state>
+    <group_state name="waypoint_2" group="kin_group">
+        <joint name="L1" value="-0.5"/>
+        <joint name="L2" value="0.5"/>
+        <joint name="L3" value="-0.3"/>
+        <joint name="L4" value="0.2"/>
+        <joint name="L5" value="-0.2"/>
+        <joint name="L6" value="0"/>
+    </group_state>
+    <group_state name="waypoint_3" group="kin_group">
+        <joint name="L1" value="0"/>
+        <joint name="L2" value="0.8"/>
+        <joint name="L3" value="-0.8"/>
         <joint name="L4" value="0"/>
         <joint name="L5" value="0"/>
         <joint name="L6" value="0"/>

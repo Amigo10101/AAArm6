@@ -1,0 +1,1 @@
+/root/ros2_ws/src/moveit/scripts/waypoint_gui.py
