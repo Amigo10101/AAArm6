@@ -1,1 +1,0 @@
-/root/ros2_ws/src/aar6/launch/display.launch.py

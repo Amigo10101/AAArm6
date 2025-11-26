@@ -1,1 +1,0 @@
-/root/ros2_ws/src/moveit/scripts/simple_mtc.py

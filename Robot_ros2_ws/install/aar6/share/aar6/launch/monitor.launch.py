@@ -1,1 +1,0 @@
-/root/ros2_ws/src/aar6/launch/monitor.launch.py

@@ -1,1 +1,0 @@
-/root/ros2_ws/build/moveit/ament_cmake_core/moveitConfig-version.cmake

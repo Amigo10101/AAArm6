@@ -1,1 +1,0 @@
-/root/ros2_ws/src/moveit/launch/spawn_controllers.launch.py

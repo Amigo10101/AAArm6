@@ -1,4 +1,0 @@
-Invoking command in '/root/ros2_ws/build/aar6': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/aar6 -- -j16 -l16
-Invoked command in '/root/ros2_ws/build/aar6' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/aar6 -- -j16 -l16
-Invoking command in '/root/ros2_ws/build/aar6': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/aar6
-Invoked command in '/root/ros2_ws/build/aar6' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/aar6
