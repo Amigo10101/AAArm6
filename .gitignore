@@ -1,29 +1,119 @@
-# Build output
+# ====================
+# ROS 2 Workspace Files
+# ====================
+# Build, install, and log directories
 build/
-Robot_ros2_ws/build
-Robot_ros2_ws/log
+install/
+log/
+Robot_ros2_ws/build/
+Robot_ros2_ws/install/
+Robot_ros2_ws/log/
+uros_ws/build/
+uros_ws/install/
+uros_ws/log/
 
-/uros_ws/build
+# Package-specific build directories (e.g., in aar6, moveit packages)
+**/src/*/build/
+**/src/*/install/
+**/src/*/log/
+
+# MoveIt cache files
+*.ikcache
+
+# Hand control specific
+hand_control/**/venv/
+hand_control/**/checkpoints/
+hand_control/**/*.pth
+hand_control/**/*.pt
+hand_control/**/models/*.task
+hand_control/**/.git/
+
+# ====================
+# Python
+# ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
 dist/
-out/
+.Python
 
-# CMake build folders
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ====================
+# C/C++ Build Artifacts
+# ====================
+# CMake
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+Makefile
+*.cmake
 
-# Compiled code
+# Compiled object files
 *.o
 *.obj
+*.a
+*.so
+*.lo
+*.la
 *.exe
 *.dll
-*.so
+*.dylib
 
-# IDE files
+# ====================
+# Embedded Development
+# ====================
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Arduino
+*.hex
+*.bin
+*.elf
+
+# ====================
+# IDE and Editor Files
+# ====================
 .vscode/
 *.code-workspace
 .idea/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.settings/
 
-# OS files
+# ====================
+# OS Files
+# ====================
 .DS_Store
 Thumbs.db
+*.tmp
+*.bak
+*.orig
+
+# ====================
+# Docker
+# ====================
+*.log
+
+# ====================
+# Misc
+# ====================
+out/

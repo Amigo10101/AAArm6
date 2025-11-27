@@ -3,10 +3,38 @@
   name="aar6">
 
   <link name="world"/>
-  <joint name="base_joint" type="fixed">
+  
+  <!-- Wooden stationary base -->
+  <link name="wooden_base">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="5.0"/>
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://aar6/meshes/wodeen_base.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://aar6/meshes/wodeen_base.dae"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="world_to_wooden_base" type="fixed">
     <parent link="world"/>
+    <child link="wooden_base"/>
+    <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  </joint>
+  
+  <joint name="base_joint" type="fixed">
+    <parent link="wooden_base"/>
     <child link="base_link"/>
-    <origin rpy="0 0 0" xyz="0.0 0.0 0.00"/>
+    <origin rpy="0 0 3.142" xyz="0.145 0.0 0.069"/>
   </joint>
 
 
@@ -54,7 +82,7 @@
     name="L1">
     <inertial>
       <origin
-        xyz="0.00524529891406311 0.0289722820784871 0.0992791429452917"
+        xyz="0.00524529891406311 0.0289722820784871 0.992791429452917"
         rpy="0 0 0" />
       <mass
         value="0.644800830530233" />
@@ -103,10 +131,10 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="-1.7"
-      upper="1.7"
+      lower="-3.142"
+      upper="3.142"
       effort="300"
-      velocity="3" />
+      velocity="15" />
   </joint>
   <link
     name="L2">
@@ -164,7 +192,7 @@
       lower="-0.98"
       upper="1"
       effort="300"
-      velocity="3" />
+      velocity="15" />
   </joint>
   <link
     name="L3">
@@ -222,7 +250,7 @@
       lower="-2"
       upper="1.3"
       effort="300"
-      velocity="3" />
+      velocity="15" />
   </joint>
   <link
     name="L4">
@@ -277,10 +305,10 @@
     <axis
       xyz="0 0 -1" />
     <limit
-      lower="-2"
-      upper="2"
+      lower="-4.9"
+      upper="0.3"
       effort="300"
-      velocity="3" />
+      velocity="15" />
   </joint>
   <link
     name="L5">
@@ -338,7 +366,7 @@
       lower="-2.1"
       upper="2.1"
       effort="300"
-      velocity="3" />
+      velocity="15" />
   </joint>
   <link
     name="L6">
@@ -396,7 +424,7 @@
       lower="-3.1"
       upper="3.1"
       effort="300"
-      velocity="3" />
+      velocity="15" />
   </joint>
   <link
     name="ee_link">

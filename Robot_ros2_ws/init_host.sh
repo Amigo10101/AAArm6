@@ -19,8 +19,6 @@ sleep 3
 # 4. Start trajectory to MCU bridge
 echo "Starting trajectory to MCU bridge..."
 ros2 run aar6 trajectory_to_mcu_bridge &
-sleep 1
+sleep 2
 
-# 5. Launch MoveIt (Foreground)
-echo "Launching MoveIt..."
-ros2 launch moveit demo.launch.py
+ros2 launch moveit demo.launch.py 
